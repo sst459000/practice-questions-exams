@@ -1,0 +1,3546 @@
+{
+  "ctai-set-1": {
+    "id": "ctai-set-1",
+    "title": "CT-AI Practice Exam 1",
+    "questions": [
+      {
+        "text": "Which statement is most accurate about AI-based systems?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Behavior can be learned or inferred from data."
+          },
+          {
+            "letter": "B",
+            "text": "It can only execute pre-written rules."
+          },
+          {
+            "letter": "C",
+            "text": "It never changes after deployment."
+          },
+          {
+            "letter": "D",
+            "text": "It always produces the same output for equivalent inputs."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "When testing AI-based systems, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can only execute pre-written rules."
+          },
+          {
+            "letter": "B",
+            "text": "It never changes after deployment."
+          },
+          {
+            "letter": "C",
+            "text": "It always produces the same output for equivalent inputs."
+          },
+          {
+            "letter": "D",
+            "text": "Behavior can be learned or inferred from data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "A team is evaluating AI-based systems. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It never changes after deployment."
+          },
+          {
+            "letter": "B",
+            "text": "It always produces the same output for equivalent inputs."
+          },
+          {
+            "letter": "C",
+            "text": "Behavior can be learned or inferred from data."
+          },
+          {
+            "letter": "D",
+            "text": "It can only execute pre-written rules."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Why is AI-based systems important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It always produces the same output for equivalent inputs."
+          },
+          {
+            "letter": "B",
+            "text": "Behavior can be learned or inferred from data."
+          },
+          {
+            "letter": "C",
+            "text": "It can only execute pre-written rules."
+          },
+          {
+            "letter": "D",
+            "text": "It never changes after deployment."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which example best illustrates AI-based systems?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Behavior can be learned or inferred from data."
+          },
+          {
+            "letter": "B",
+            "text": "It can only execute pre-written rules."
+          },
+          {
+            "letter": "C",
+            "text": "It never changes after deployment."
+          },
+          {
+            "letter": "D",
+            "text": "It always produces the same output for equivalent inputs."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which test evidence would provide useful information about AI-based systems?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can only execute pre-written rules."
+          },
+          {
+            "letter": "B",
+            "text": "It never changes after deployment."
+          },
+          {
+            "letter": "C",
+            "text": "It always produces the same output for equivalent inputs."
+          },
+          {
+            "letter": "D",
+            "text": "Behavior can be learned or inferred from data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "During a review of AI-based systems, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It never changes after deployment."
+          },
+          {
+            "letter": "B",
+            "text": "It always produces the same output for equivalent inputs."
+          },
+          {
+            "letter": "C",
+            "text": "Behavior can be learned or inferred from data."
+          },
+          {
+            "letter": "D",
+            "text": "It can only execute pre-written rules."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which risk is most closely associated with AI-based systems?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It always produces the same output for equivalent inputs."
+          },
+          {
+            "letter": "B",
+            "text": "Behavior can be learned or inferred from data."
+          },
+          {
+            "letter": "C",
+            "text": "It can only execute pre-written rules."
+          },
+          {
+            "letter": "D",
+            "text": "It never changes after deployment."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "How should a tester apply AI-based systems in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Behavior can be learned or inferred from data."
+          },
+          {
+            "letter": "B",
+            "text": "It can only execute pre-written rules."
+          },
+          {
+            "letter": "C",
+            "text": "It never changes after deployment."
+          },
+          {
+            "letter": "D",
+            "text": "It always produces the same output for equivalent inputs."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which claim about AI-based systems should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can only execute pre-written rules."
+          },
+          {
+            "letter": "B",
+            "text": "It never changes after deployment."
+          },
+          {
+            "letter": "C",
+            "text": "It always produces the same output for equivalent inputs."
+          },
+          {
+            "letter": "D",
+            "text": "Behavior can be learned or inferred from data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which statement is most accurate about narrow, general, and super AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Narrow AI can perform every intellectual task."
+          },
+          {
+            "letter": "B",
+            "text": "General AI is limited to one fixed classification."
+          },
+          {
+            "letter": "C",
+            "text": "Super AI is the current standard production technology."
+          },
+          {
+            "letter": "D",
+            "text": "Narrow AI is focused on a limited task or domain."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "When testing narrow, general, and super AI, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "General AI is limited to one fixed classification."
+          },
+          {
+            "letter": "B",
+            "text": "Super AI is the current standard production technology."
+          },
+          {
+            "letter": "C",
+            "text": "Narrow AI is focused on a limited task or domain."
+          },
+          {
+            "letter": "D",
+            "text": "Narrow AI can perform every intellectual task."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "A team is evaluating narrow, general, and super AI. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Super AI is the current standard production technology."
+          },
+          {
+            "letter": "B",
+            "text": "Narrow AI is focused on a limited task or domain."
+          },
+          {
+            "letter": "C",
+            "text": "Narrow AI can perform every intellectual task."
+          },
+          {
+            "letter": "D",
+            "text": "General AI is limited to one fixed classification."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Why is narrow, general, and super AI important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Narrow AI is focused on a limited task or domain."
+          },
+          {
+            "letter": "B",
+            "text": "Narrow AI can perform every intellectual task."
+          },
+          {
+            "letter": "C",
+            "text": "General AI is limited to one fixed classification."
+          },
+          {
+            "letter": "D",
+            "text": "Super AI is the current standard production technology."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which example best illustrates narrow, general, and super AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Narrow AI can perform every intellectual task."
+          },
+          {
+            "letter": "B",
+            "text": "General AI is limited to one fixed classification."
+          },
+          {
+            "letter": "C",
+            "text": "Super AI is the current standard production technology."
+          },
+          {
+            "letter": "D",
+            "text": "Narrow AI is focused on a limited task or domain."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which test evidence would provide useful information about narrow, general, and super AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "General AI is limited to one fixed classification."
+          },
+          {
+            "letter": "B",
+            "text": "Super AI is the current standard production technology."
+          },
+          {
+            "letter": "C",
+            "text": "Narrow AI is focused on a limited task or domain."
+          },
+          {
+            "letter": "D",
+            "text": "Narrow AI can perform every intellectual task."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "During a review of narrow, general, and super AI, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Super AI is the current standard production technology."
+          },
+          {
+            "letter": "B",
+            "text": "Narrow AI is focused on a limited task or domain."
+          },
+          {
+            "letter": "C",
+            "text": "Narrow AI can perform every intellectual task."
+          },
+          {
+            "letter": "D",
+            "text": "General AI is limited to one fixed classification."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which risk is most closely associated with narrow, general, and super AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Narrow AI is focused on a limited task or domain."
+          },
+          {
+            "letter": "B",
+            "text": "Narrow AI can perform every intellectual task."
+          },
+          {
+            "letter": "C",
+            "text": "General AI is limited to one fixed classification."
+          },
+          {
+            "letter": "D",
+            "text": "Super AI is the current standard production technology."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "How should a tester apply narrow, general, and super AI in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Narrow AI can perform every intellectual task."
+          },
+          {
+            "letter": "B",
+            "text": "General AI is limited to one fixed classification."
+          },
+          {
+            "letter": "C",
+            "text": "Super AI is the current standard production technology."
+          },
+          {
+            "letter": "D",
+            "text": "Narrow AI is focused on a limited task or domain."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which claim about narrow, general, and super AI should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "General AI is limited to one fixed classification."
+          },
+          {
+            "letter": "B",
+            "text": "Super AI is the current standard production technology."
+          },
+          {
+            "letter": "C",
+            "text": "Narrow AI is focused on a limited task or domain."
+          },
+          {
+            "letter": "D",
+            "text": "Narrow AI can perform every intellectual task."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which statement is most accurate about generative AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires no data or training."
+          },
+          {
+            "letter": "B",
+            "text": "It guarantees factual correctness."
+          },
+          {
+            "letter": "C",
+            "text": "It can generate content such as text, images, audio, or code."
+          },
+          {
+            "letter": "D",
+            "text": "It only classifies inputs into fixed labels."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "When testing generative AI, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It guarantees factual correctness."
+          },
+          {
+            "letter": "B",
+            "text": "It can generate content such as text, images, audio, or code."
+          },
+          {
+            "letter": "C",
+            "text": "It only classifies inputs into fixed labels."
+          },
+          {
+            "letter": "D",
+            "text": "It requires no data or training."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "A team is evaluating generative AI. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can generate content such as text, images, audio, or code."
+          },
+          {
+            "letter": "B",
+            "text": "It only classifies inputs into fixed labels."
+          },
+          {
+            "letter": "C",
+            "text": "It requires no data or training."
+          },
+          {
+            "letter": "D",
+            "text": "It guarantees factual correctness."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Why is generative AI important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It only classifies inputs into fixed labels."
+          },
+          {
+            "letter": "B",
+            "text": "It requires no data or training."
+          },
+          {
+            "letter": "C",
+            "text": "It guarantees factual correctness."
+          },
+          {
+            "letter": "D",
+            "text": "It can generate content such as text, images, audio, or code."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which example best illustrates generative AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires no data or training."
+          },
+          {
+            "letter": "B",
+            "text": "It guarantees factual correctness."
+          },
+          {
+            "letter": "C",
+            "text": "It can generate content such as text, images, audio, or code."
+          },
+          {
+            "letter": "D",
+            "text": "It only classifies inputs into fixed labels."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which test evidence would provide useful information about generative AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It guarantees factual correctness."
+          },
+          {
+            "letter": "B",
+            "text": "It can generate content such as text, images, audio, or code."
+          },
+          {
+            "letter": "C",
+            "text": "It only classifies inputs into fixed labels."
+          },
+          {
+            "letter": "D",
+            "text": "It requires no data or training."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "During a review of generative AI, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can generate content such as text, images, audio, or code."
+          },
+          {
+            "letter": "B",
+            "text": "It only classifies inputs into fixed labels."
+          },
+          {
+            "letter": "C",
+            "text": "It requires no data or training."
+          },
+          {
+            "letter": "D",
+            "text": "It guarantees factual correctness."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which risk is most closely associated with generative AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It only classifies inputs into fixed labels."
+          },
+          {
+            "letter": "B",
+            "text": "It requires no data or training."
+          },
+          {
+            "letter": "C",
+            "text": "It guarantees factual correctness."
+          },
+          {
+            "letter": "D",
+            "text": "It can generate content such as text, images, audio, or code."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "How should a tester apply generative AI in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires no data or training."
+          },
+          {
+            "letter": "B",
+            "text": "It guarantees factual correctness."
+          },
+          {
+            "letter": "C",
+            "text": "It can generate content such as text, images, audio, or code."
+          },
+          {
+            "letter": "D",
+            "text": "It only classifies inputs into fixed labels."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which claim about generative AI should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It guarantees factual correctness."
+          },
+          {
+            "letter": "B",
+            "text": "It can generate content such as text, images, audio, or code."
+          },
+          {
+            "letter": "C",
+            "text": "It only classifies inputs into fixed labels."
+          },
+          {
+            "letter": "D",
+            "text": "It requires no data or training."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which statement is most accurate about ML hardware?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only a desktop CPU can run an ML model."
+          },
+          {
+            "letter": "B",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          },
+          {
+            "letter": "C",
+            "text": "The most expensive hardware is always best."
+          },
+          {
+            "letter": "D",
+            "text": "Hardware has no effect on inference."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "When testing ML hardware, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          },
+          {
+            "letter": "B",
+            "text": "The most expensive hardware is always best."
+          },
+          {
+            "letter": "C",
+            "text": "Hardware has no effect on inference."
+          },
+          {
+            "letter": "D",
+            "text": "Only a desktop CPU can run an ML model."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "A team is evaluating ML hardware. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The most expensive hardware is always best."
+          },
+          {
+            "letter": "B",
+            "text": "Hardware has no effect on inference."
+          },
+          {
+            "letter": "C",
+            "text": "Only a desktop CPU can run an ML model."
+          },
+          {
+            "letter": "D",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Why is ML hardware important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Hardware has no effect on inference."
+          },
+          {
+            "letter": "B",
+            "text": "Only a desktop CPU can run an ML model."
+          },
+          {
+            "letter": "C",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          },
+          {
+            "letter": "D",
+            "text": "The most expensive hardware is always best."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which example best illustrates ML hardware?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only a desktop CPU can run an ML model."
+          },
+          {
+            "letter": "B",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          },
+          {
+            "letter": "C",
+            "text": "The most expensive hardware is always best."
+          },
+          {
+            "letter": "D",
+            "text": "Hardware has no effect on inference."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which test evidence would provide useful information about ML hardware?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          },
+          {
+            "letter": "B",
+            "text": "The most expensive hardware is always best."
+          },
+          {
+            "letter": "C",
+            "text": "Hardware has no effect on inference."
+          },
+          {
+            "letter": "D",
+            "text": "Only a desktop CPU can run an ML model."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "During a review of ML hardware, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The most expensive hardware is always best."
+          },
+          {
+            "letter": "B",
+            "text": "Hardware has no effect on inference."
+          },
+          {
+            "letter": "C",
+            "text": "Only a desktop CPU can run an ML model."
+          },
+          {
+            "letter": "D",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which risk is most closely associated with ML hardware?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Hardware has no effect on inference."
+          },
+          {
+            "letter": "B",
+            "text": "Only a desktop CPU can run an ML model."
+          },
+          {
+            "letter": "C",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          },
+          {
+            "letter": "D",
+            "text": "The most expensive hardware is always best."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "How should a tester apply ML hardware in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only a desktop CPU can run an ML model."
+          },
+          {
+            "letter": "B",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          },
+          {
+            "letter": "C",
+            "text": "The most expensive hardware is always best."
+          },
+          {
+            "letter": "D",
+            "text": "Hardware has no effect on inference."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which claim about ML hardware should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Hardware should be selected against workload, performance, cost, and deployment constraints."
+          },
+          {
+            "letter": "B",
+            "text": "The most expensive hardware is always best."
+          },
+          {
+            "letter": "C",
+            "text": "Hardware has no effect on inference."
+          },
+          {
+            "letter": "D",
+            "text": "Only a desktop CPU can run an ML model."
+          }
+        ],
+        "correct": "A"
+      }
+    ]
+  },
+  "ctai-set-2": {
+    "id": "ctai-set-2",
+    "title": "CT-AI Practice Exam 2",
+    "questions": [
+      {
+        "text": "Which statement is most accurate about regulation and standards?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          },
+          {
+            "letter": "B",
+            "text": "They remove the need for testing."
+          },
+          {
+            "letter": "C",
+            "text": "They guarantee that every model is accurate."
+          },
+          {
+            "letter": "D",
+            "text": "They apply only after the system is retired."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "When testing regulation and standards, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They remove the need for testing."
+          },
+          {
+            "letter": "B",
+            "text": "They guarantee that every model is accurate."
+          },
+          {
+            "letter": "C",
+            "text": "They apply only after the system is retired."
+          },
+          {
+            "letter": "D",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "A team is evaluating regulation and standards. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They guarantee that every model is accurate."
+          },
+          {
+            "letter": "B",
+            "text": "They apply only after the system is retired."
+          },
+          {
+            "letter": "C",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          },
+          {
+            "letter": "D",
+            "text": "They remove the need for testing."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Why is regulation and standards important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They apply only after the system is retired."
+          },
+          {
+            "letter": "B",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          },
+          {
+            "letter": "C",
+            "text": "They remove the need for testing."
+          },
+          {
+            "letter": "D",
+            "text": "They guarantee that every model is accurate."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which example best illustrates regulation and standards?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          },
+          {
+            "letter": "B",
+            "text": "They remove the need for testing."
+          },
+          {
+            "letter": "C",
+            "text": "They guarantee that every model is accurate."
+          },
+          {
+            "letter": "D",
+            "text": "They apply only after the system is retired."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which test evidence would provide useful information about regulation and standards?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They remove the need for testing."
+          },
+          {
+            "letter": "B",
+            "text": "They guarantee that every model is accurate."
+          },
+          {
+            "letter": "C",
+            "text": "They apply only after the system is retired."
+          },
+          {
+            "letter": "D",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "During a review of regulation and standards, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They guarantee that every model is accurate."
+          },
+          {
+            "letter": "B",
+            "text": "They apply only after the system is retired."
+          },
+          {
+            "letter": "C",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          },
+          {
+            "letter": "D",
+            "text": "They remove the need for testing."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which risk is most closely associated with regulation and standards?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They apply only after the system is retired."
+          },
+          {
+            "letter": "B",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          },
+          {
+            "letter": "C",
+            "text": "They remove the need for testing."
+          },
+          {
+            "letter": "D",
+            "text": "They guarantee that every model is accurate."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "How should a tester apply regulation and standards in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          },
+          {
+            "letter": "B",
+            "text": "They remove the need for testing."
+          },
+          {
+            "letter": "C",
+            "text": "They guarantee that every model is accurate."
+          },
+          {
+            "letter": "D",
+            "text": "They apply only after the system is retired."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which claim about regulation and standards should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They remove the need for testing."
+          },
+          {
+            "letter": "B",
+            "text": "They guarantee that every model is accurate."
+          },
+          {
+            "letter": "C",
+            "text": "They apply only after the system is retired."
+          },
+          {
+            "letter": "D",
+            "text": "They can shape requirements for risk management, transparency, and data handling."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which statement is most accurate about probabilistic behavior?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          },
+          {
+            "letter": "B",
+            "text": "One execution is always sufficient."
+          },
+          {
+            "letter": "C",
+            "text": "The system cannot be tested."
+          },
+          {
+            "letter": "D",
+            "text": "Only source-code syntax needs testing."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "When testing probabilistic behavior, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "One execution is always sufficient."
+          },
+          {
+            "letter": "B",
+            "text": "The system cannot be tested."
+          },
+          {
+            "letter": "C",
+            "text": "Only source-code syntax needs testing."
+          },
+          {
+            "letter": "D",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "A team is evaluating probabilistic behavior. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The system cannot be tested."
+          },
+          {
+            "letter": "B",
+            "text": "Only source-code syntax needs testing."
+          },
+          {
+            "letter": "C",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          },
+          {
+            "letter": "D",
+            "text": "One execution is always sufficient."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Why is probabilistic behavior important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only source-code syntax needs testing."
+          },
+          {
+            "letter": "B",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          },
+          {
+            "letter": "C",
+            "text": "One execution is always sufficient."
+          },
+          {
+            "letter": "D",
+            "text": "The system cannot be tested."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which example best illustrates probabilistic behavior?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          },
+          {
+            "letter": "B",
+            "text": "One execution is always sufficient."
+          },
+          {
+            "letter": "C",
+            "text": "The system cannot be tested."
+          },
+          {
+            "letter": "D",
+            "text": "Only source-code syntax needs testing."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which test evidence would provide useful information about probabilistic behavior?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "One execution is always sufficient."
+          },
+          {
+            "letter": "B",
+            "text": "The system cannot be tested."
+          },
+          {
+            "letter": "C",
+            "text": "Only source-code syntax needs testing."
+          },
+          {
+            "letter": "D",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "During a review of probabilistic behavior, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The system cannot be tested."
+          },
+          {
+            "letter": "B",
+            "text": "Only source-code syntax needs testing."
+          },
+          {
+            "letter": "C",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          },
+          {
+            "letter": "D",
+            "text": "One execution is always sufficient."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which risk is most closely associated with probabilistic behavior?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only source-code syntax needs testing."
+          },
+          {
+            "letter": "B",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          },
+          {
+            "letter": "C",
+            "text": "One execution is always sufficient."
+          },
+          {
+            "letter": "D",
+            "text": "The system cannot be tested."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "How should a tester apply probabilistic behavior in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          },
+          {
+            "letter": "B",
+            "text": "One execution is always sufficient."
+          },
+          {
+            "letter": "C",
+            "text": "The system cannot be tested."
+          },
+          {
+            "letter": "D",
+            "text": "Only source-code syntax needs testing."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which claim about probabilistic behavior should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "One execution is always sufficient."
+          },
+          {
+            "letter": "B",
+            "text": "The system cannot be tested."
+          },
+          {
+            "letter": "C",
+            "text": "Only source-code syntax needs testing."
+          },
+          {
+            "letter": "D",
+            "text": "Expected behavior may be described with probabilities or tolerances."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which statement is most accurate about AI quality characteristics?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality means only execution speed."
+          },
+          {
+            "letter": "B",
+            "text": "Quality is determined only by model size."
+          },
+          {
+            "letter": "C",
+            "text": "Quality cannot be evaluated before production."
+          },
+          {
+            "letter": "D",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "When testing AI quality characteristics, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality is determined only by model size."
+          },
+          {
+            "letter": "B",
+            "text": "Quality cannot be evaluated before production."
+          },
+          {
+            "letter": "C",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          },
+          {
+            "letter": "D",
+            "text": "Quality means only execution speed."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "A team is evaluating AI quality characteristics. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality cannot be evaluated before production."
+          },
+          {
+            "letter": "B",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          },
+          {
+            "letter": "C",
+            "text": "Quality means only execution speed."
+          },
+          {
+            "letter": "D",
+            "text": "Quality is determined only by model size."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Why is AI quality characteristics important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          },
+          {
+            "letter": "B",
+            "text": "Quality means only execution speed."
+          },
+          {
+            "letter": "C",
+            "text": "Quality is determined only by model size."
+          },
+          {
+            "letter": "D",
+            "text": "Quality cannot be evaluated before production."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which example best illustrates AI quality characteristics?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality means only execution speed."
+          },
+          {
+            "letter": "B",
+            "text": "Quality is determined only by model size."
+          },
+          {
+            "letter": "C",
+            "text": "Quality cannot be evaluated before production."
+          },
+          {
+            "letter": "D",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which test evidence would provide useful information about AI quality characteristics?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality is determined only by model size."
+          },
+          {
+            "letter": "B",
+            "text": "Quality cannot be evaluated before production."
+          },
+          {
+            "letter": "C",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          },
+          {
+            "letter": "D",
+            "text": "Quality means only execution speed."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "During a review of AI quality characteristics, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality cannot be evaluated before production."
+          },
+          {
+            "letter": "B",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          },
+          {
+            "letter": "C",
+            "text": "Quality means only execution speed."
+          },
+          {
+            "letter": "D",
+            "text": "Quality is determined only by model size."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which risk is most closely associated with AI quality characteristics?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          },
+          {
+            "letter": "B",
+            "text": "Quality means only execution speed."
+          },
+          {
+            "letter": "C",
+            "text": "Quality is determined only by model size."
+          },
+          {
+            "letter": "D",
+            "text": "Quality cannot be evaluated before production."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "How should a tester apply AI quality characteristics in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality means only execution speed."
+          },
+          {
+            "letter": "B",
+            "text": "Quality is determined only by model size."
+          },
+          {
+            "letter": "C",
+            "text": "Quality cannot be evaluated before production."
+          },
+          {
+            "letter": "D",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which claim about AI quality characteristics should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality is determined only by model size."
+          },
+          {
+            "letter": "B",
+            "text": "Quality cannot be evaluated before production."
+          },
+          {
+            "letter": "C",
+            "text": "Quality evaluation should consider the intended context and AI-specific risks."
+          },
+          {
+            "letter": "D",
+            "text": "Quality means only execution speed."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which statement is most accurate about acceptance criteria?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The system should never make a mistake."
+          },
+          {
+            "letter": "B",
+            "text": "The model should be as complex as possible."
+          },
+          {
+            "letter": "C",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          },
+          {
+            "letter": "D",
+            "text": "The model should be intelligent."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "When testing acceptance criteria, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The model should be as complex as possible."
+          },
+          {
+            "letter": "B",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          },
+          {
+            "letter": "C",
+            "text": "The model should be intelligent."
+          },
+          {
+            "letter": "D",
+            "text": "The system should never make a mistake."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "A team is evaluating acceptance criteria. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          },
+          {
+            "letter": "B",
+            "text": "The model should be intelligent."
+          },
+          {
+            "letter": "C",
+            "text": "The system should never make a mistake."
+          },
+          {
+            "letter": "D",
+            "text": "The model should be as complex as possible."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Why is acceptance criteria important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The model should be intelligent."
+          },
+          {
+            "letter": "B",
+            "text": "The system should never make a mistake."
+          },
+          {
+            "letter": "C",
+            "text": "The model should be as complex as possible."
+          },
+          {
+            "letter": "D",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which example best illustrates acceptance criteria?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The system should never make a mistake."
+          },
+          {
+            "letter": "B",
+            "text": "The model should be as complex as possible."
+          },
+          {
+            "letter": "C",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          },
+          {
+            "letter": "D",
+            "text": "The model should be intelligent."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which test evidence would provide useful information about acceptance criteria?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The model should be as complex as possible."
+          },
+          {
+            "letter": "B",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          },
+          {
+            "letter": "C",
+            "text": "The model should be intelligent."
+          },
+          {
+            "letter": "D",
+            "text": "The system should never make a mistake."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "During a review of acceptance criteria, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          },
+          {
+            "letter": "B",
+            "text": "The model should be intelligent."
+          },
+          {
+            "letter": "C",
+            "text": "The system should never make a mistake."
+          },
+          {
+            "letter": "D",
+            "text": "The model should be as complex as possible."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which risk is most closely associated with acceptance criteria?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The model should be intelligent."
+          },
+          {
+            "letter": "B",
+            "text": "The system should never make a mistake."
+          },
+          {
+            "letter": "C",
+            "text": "The model should be as complex as possible."
+          },
+          {
+            "letter": "D",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "How should a tester apply acceptance criteria in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The system should never make a mistake."
+          },
+          {
+            "letter": "B",
+            "text": "The model should be as complex as possible."
+          },
+          {
+            "letter": "C",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          },
+          {
+            "letter": "D",
+            "text": "The model should be intelligent."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which claim about acceptance criteria should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The model should be as complex as possible."
+          },
+          {
+            "letter": "B",
+            "text": "A defined false-negative rate on representative evaluation data is measurable."
+          },
+          {
+            "letter": "C",
+            "text": "The model should be intelligent."
+          },
+          {
+            "letter": "D",
+            "text": "The system should never make a mistake."
+          }
+        ],
+        "correct": "B"
+      }
+    ]
+  },
+  "ctai-set-3": {
+    "id": "ctai-set-3",
+    "title": "CT-AI Practice Exam 3",
+    "questions": [
+      {
+        "text": "Which statement is most accurate about safety-related AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only interface color needs testing."
+          },
+          {
+            "letter": "B",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          },
+          {
+            "letter": "C",
+            "text": "Safety is unrelated to intended use."
+          },
+          {
+            "letter": "D",
+            "text": "Safety systems do not need monitoring."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "When testing safety-related AI, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          },
+          {
+            "letter": "B",
+            "text": "Safety is unrelated to intended use."
+          },
+          {
+            "letter": "C",
+            "text": "Safety systems do not need monitoring."
+          },
+          {
+            "letter": "D",
+            "text": "Only interface color needs testing."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "A team is evaluating safety-related AI. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Safety is unrelated to intended use."
+          },
+          {
+            "letter": "B",
+            "text": "Safety systems do not need monitoring."
+          },
+          {
+            "letter": "C",
+            "text": "Only interface color needs testing."
+          },
+          {
+            "letter": "D",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Why is safety-related AI important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Safety systems do not need monitoring."
+          },
+          {
+            "letter": "B",
+            "text": "Only interface color needs testing."
+          },
+          {
+            "letter": "C",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          },
+          {
+            "letter": "D",
+            "text": "Safety is unrelated to intended use."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which example best illustrates safety-related AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only interface color needs testing."
+          },
+          {
+            "letter": "B",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          },
+          {
+            "letter": "C",
+            "text": "Safety is unrelated to intended use."
+          },
+          {
+            "letter": "D",
+            "text": "Safety systems do not need monitoring."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which test evidence would provide useful information about safety-related AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          },
+          {
+            "letter": "B",
+            "text": "Safety is unrelated to intended use."
+          },
+          {
+            "letter": "C",
+            "text": "Safety systems do not need monitoring."
+          },
+          {
+            "letter": "D",
+            "text": "Only interface color needs testing."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "During a review of safety-related AI, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Safety is unrelated to intended use."
+          },
+          {
+            "letter": "B",
+            "text": "Safety systems do not need monitoring."
+          },
+          {
+            "letter": "C",
+            "text": "Only interface color needs testing."
+          },
+          {
+            "letter": "D",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which risk is most closely associated with safety-related AI?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Safety systems do not need monitoring."
+          },
+          {
+            "letter": "B",
+            "text": "Only interface color needs testing."
+          },
+          {
+            "letter": "C",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          },
+          {
+            "letter": "D",
+            "text": "Safety is unrelated to intended use."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "How should a tester apply safety-related AI in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only interface color needs testing."
+          },
+          {
+            "letter": "B",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          },
+          {
+            "letter": "C",
+            "text": "Safety is unrelated to intended use."
+          },
+          {
+            "letter": "D",
+            "text": "Safety systems do not need monitoring."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which claim about safety-related AI should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Errors can cause unacceptable harm to people or the environment."
+          },
+          {
+            "letter": "B",
+            "text": "Safety is unrelated to intended use."
+          },
+          {
+            "letter": "C",
+            "text": "Safety systems do not need monitoring."
+          },
+          {
+            "letter": "D",
+            "text": "Only interface color needs testing."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which statement is most accurate about human oversight?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          },
+          {
+            "letter": "B",
+            "text": "Human oversight means accepting every model output."
+          },
+          {
+            "letter": "C",
+            "text": "Oversight removes the need for system testing."
+          },
+          {
+            "letter": "D",
+            "text": "Oversight is useful only during coding."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "When testing human oversight, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Human oversight means accepting every model output."
+          },
+          {
+            "letter": "B",
+            "text": "Oversight removes the need for system testing."
+          },
+          {
+            "letter": "C",
+            "text": "Oversight is useful only during coding."
+          },
+          {
+            "letter": "D",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "A team is evaluating human oversight. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Oversight removes the need for system testing."
+          },
+          {
+            "letter": "B",
+            "text": "Oversight is useful only during coding."
+          },
+          {
+            "letter": "C",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          },
+          {
+            "letter": "D",
+            "text": "Human oversight means accepting every model output."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Why is human oversight important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Oversight is useful only during coding."
+          },
+          {
+            "letter": "B",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          },
+          {
+            "letter": "C",
+            "text": "Human oversight means accepting every model output."
+          },
+          {
+            "letter": "D",
+            "text": "Oversight removes the need for system testing."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which example best illustrates human oversight?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          },
+          {
+            "letter": "B",
+            "text": "Human oversight means accepting every model output."
+          },
+          {
+            "letter": "C",
+            "text": "Oversight removes the need for system testing."
+          },
+          {
+            "letter": "D",
+            "text": "Oversight is useful only during coding."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which test evidence would provide useful information about human oversight?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Human oversight means accepting every model output."
+          },
+          {
+            "letter": "B",
+            "text": "Oversight removes the need for system testing."
+          },
+          {
+            "letter": "C",
+            "text": "Oversight is useful only during coding."
+          },
+          {
+            "letter": "D",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "During a review of human oversight, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Oversight removes the need for system testing."
+          },
+          {
+            "letter": "B",
+            "text": "Oversight is useful only during coding."
+          },
+          {
+            "letter": "C",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          },
+          {
+            "letter": "D",
+            "text": "Human oversight means accepting every model output."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which risk is most closely associated with human oversight?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Oversight is useful only during coding."
+          },
+          {
+            "letter": "B",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          },
+          {
+            "letter": "C",
+            "text": "Human oversight means accepting every model output."
+          },
+          {
+            "letter": "D",
+            "text": "Oversight removes the need for system testing."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "How should a tester apply human oversight in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          },
+          {
+            "letter": "B",
+            "text": "Human oversight means accepting every model output."
+          },
+          {
+            "letter": "C",
+            "text": "Oversight removes the need for system testing."
+          },
+          {
+            "letter": "D",
+            "text": "Oversight is useful only during coding."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which claim about human oversight should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Human oversight means accepting every model output."
+          },
+          {
+            "letter": "B",
+            "text": "Oversight removes the need for system testing."
+          },
+          {
+            "letter": "C",
+            "text": "Oversight is useful only during coding."
+          },
+          {
+            "letter": "D",
+            "text": "Oversight should be designed around meaningful intervention and escalation needs."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which statement is most accurate about supervised learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Supervised learning uses labeled training data."
+          },
+          {
+            "letter": "B",
+            "text": "It never uses data."
+          },
+          {
+            "letter": "C",
+            "text": "It always finds groups without labels."
+          },
+          {
+            "letter": "D",
+            "text": "It is identical to unsupervised learning."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "When testing supervised learning, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It never uses data."
+          },
+          {
+            "letter": "B",
+            "text": "It always finds groups without labels."
+          },
+          {
+            "letter": "C",
+            "text": "It is identical to unsupervised learning."
+          },
+          {
+            "letter": "D",
+            "text": "Supervised learning uses labeled training data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "A team is evaluating supervised learning. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It always finds groups without labels."
+          },
+          {
+            "letter": "B",
+            "text": "It is identical to unsupervised learning."
+          },
+          {
+            "letter": "C",
+            "text": "Supervised learning uses labeled training data."
+          },
+          {
+            "letter": "D",
+            "text": "It never uses data."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Why is supervised learning important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It is identical to unsupervised learning."
+          },
+          {
+            "letter": "B",
+            "text": "Supervised learning uses labeled training data."
+          },
+          {
+            "letter": "C",
+            "text": "It never uses data."
+          },
+          {
+            "letter": "D",
+            "text": "It always finds groups without labels."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which example best illustrates supervised learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Supervised learning uses labeled training data."
+          },
+          {
+            "letter": "B",
+            "text": "It never uses data."
+          },
+          {
+            "letter": "C",
+            "text": "It always finds groups without labels."
+          },
+          {
+            "letter": "D",
+            "text": "It is identical to unsupervised learning."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which test evidence would provide useful information about supervised learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It never uses data."
+          },
+          {
+            "letter": "B",
+            "text": "It always finds groups without labels."
+          },
+          {
+            "letter": "C",
+            "text": "It is identical to unsupervised learning."
+          },
+          {
+            "letter": "D",
+            "text": "Supervised learning uses labeled training data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "During a review of supervised learning, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It always finds groups without labels."
+          },
+          {
+            "letter": "B",
+            "text": "It is identical to unsupervised learning."
+          },
+          {
+            "letter": "C",
+            "text": "Supervised learning uses labeled training data."
+          },
+          {
+            "letter": "D",
+            "text": "It never uses data."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which risk is most closely associated with supervised learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It is identical to unsupervised learning."
+          },
+          {
+            "letter": "B",
+            "text": "Supervised learning uses labeled training data."
+          },
+          {
+            "letter": "C",
+            "text": "It never uses data."
+          },
+          {
+            "letter": "D",
+            "text": "It always finds groups without labels."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "How should a tester apply supervised learning in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Supervised learning uses labeled training data."
+          },
+          {
+            "letter": "B",
+            "text": "It never uses data."
+          },
+          {
+            "letter": "C",
+            "text": "It always finds groups without labels."
+          },
+          {
+            "letter": "D",
+            "text": "It is identical to unsupervised learning."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which claim about supervised learning should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It never uses data."
+          },
+          {
+            "letter": "B",
+            "text": "It always finds groups without labels."
+          },
+          {
+            "letter": "C",
+            "text": "It is identical to unsupervised learning."
+          },
+          {
+            "letter": "D",
+            "text": "Supervised learning uses labeled training data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which statement is most accurate about unsupervised learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It always predicts a known class."
+          },
+          {
+            "letter": "B",
+            "text": "It requires a correct label for every input."
+          },
+          {
+            "letter": "C",
+            "text": "It is only used for software deployment."
+          },
+          {
+            "letter": "D",
+            "text": "It can identify groups or structure in unlabeled data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "When testing unsupervised learning, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires a correct label for every input."
+          },
+          {
+            "letter": "B",
+            "text": "It is only used for software deployment."
+          },
+          {
+            "letter": "C",
+            "text": "It can identify groups or structure in unlabeled data."
+          },
+          {
+            "letter": "D",
+            "text": "It always predicts a known class."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "A team is evaluating unsupervised learning. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It is only used for software deployment."
+          },
+          {
+            "letter": "B",
+            "text": "It can identify groups or structure in unlabeled data."
+          },
+          {
+            "letter": "C",
+            "text": "It always predicts a known class."
+          },
+          {
+            "letter": "D",
+            "text": "It requires a correct label for every input."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Why is unsupervised learning important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can identify groups or structure in unlabeled data."
+          },
+          {
+            "letter": "B",
+            "text": "It always predicts a known class."
+          },
+          {
+            "letter": "C",
+            "text": "It requires a correct label for every input."
+          },
+          {
+            "letter": "D",
+            "text": "It is only used for software deployment."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which example best illustrates unsupervised learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It always predicts a known class."
+          },
+          {
+            "letter": "B",
+            "text": "It requires a correct label for every input."
+          },
+          {
+            "letter": "C",
+            "text": "It is only used for software deployment."
+          },
+          {
+            "letter": "D",
+            "text": "It can identify groups or structure in unlabeled data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which test evidence would provide useful information about unsupervised learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires a correct label for every input."
+          },
+          {
+            "letter": "B",
+            "text": "It is only used for software deployment."
+          },
+          {
+            "letter": "C",
+            "text": "It can identify groups or structure in unlabeled data."
+          },
+          {
+            "letter": "D",
+            "text": "It always predicts a known class."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "During a review of unsupervised learning, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It is only used for software deployment."
+          },
+          {
+            "letter": "B",
+            "text": "It can identify groups or structure in unlabeled data."
+          },
+          {
+            "letter": "C",
+            "text": "It always predicts a known class."
+          },
+          {
+            "letter": "D",
+            "text": "It requires a correct label for every input."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which risk is most closely associated with unsupervised learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can identify groups or structure in unlabeled data."
+          },
+          {
+            "letter": "B",
+            "text": "It always predicts a known class."
+          },
+          {
+            "letter": "C",
+            "text": "It requires a correct label for every input."
+          },
+          {
+            "letter": "D",
+            "text": "It is only used for software deployment."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "How should a tester apply unsupervised learning in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It always predicts a known class."
+          },
+          {
+            "letter": "B",
+            "text": "It requires a correct label for every input."
+          },
+          {
+            "letter": "C",
+            "text": "It is only used for software deployment."
+          },
+          {
+            "letter": "D",
+            "text": "It can identify groups or structure in unlabeled data."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which claim about unsupervised learning should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires a correct label for every input."
+          },
+          {
+            "letter": "B",
+            "text": "It is only used for software deployment."
+          },
+          {
+            "letter": "C",
+            "text": "It can identify groups or structure in unlabeled data."
+          },
+          {
+            "letter": "D",
+            "text": "It always predicts a known class."
+          }
+        ],
+        "correct": "C"
+      }
+    ]
+  },
+  "ctai-set-4": {
+    "id": "ctai-set-4",
+    "title": "CT-AI Practice Exam 4",
+    "questions": [
+      {
+        "text": "Which statement is most accurate about reinforcement learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires no interaction or feedback."
+          },
+          {
+            "letter": "B",
+            "text": "It can only process static labels."
+          },
+          {
+            "letter": "C",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          },
+          {
+            "letter": "D",
+            "text": "It uses only fixed business rules."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "When testing reinforcement learning, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can only process static labels."
+          },
+          {
+            "letter": "B",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          },
+          {
+            "letter": "C",
+            "text": "It uses only fixed business rules."
+          },
+          {
+            "letter": "D",
+            "text": "It requires no interaction or feedback."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "A team is evaluating reinforcement learning. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          },
+          {
+            "letter": "B",
+            "text": "It uses only fixed business rules."
+          },
+          {
+            "letter": "C",
+            "text": "It requires no interaction or feedback."
+          },
+          {
+            "letter": "D",
+            "text": "It can only process static labels."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Why is reinforcement learning important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It uses only fixed business rules."
+          },
+          {
+            "letter": "B",
+            "text": "It requires no interaction or feedback."
+          },
+          {
+            "letter": "C",
+            "text": "It can only process static labels."
+          },
+          {
+            "letter": "D",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which example best illustrates reinforcement learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires no interaction or feedback."
+          },
+          {
+            "letter": "B",
+            "text": "It can only process static labels."
+          },
+          {
+            "letter": "C",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          },
+          {
+            "letter": "D",
+            "text": "It uses only fixed business rules."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which test evidence would provide useful information about reinforcement learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can only process static labels."
+          },
+          {
+            "letter": "B",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          },
+          {
+            "letter": "C",
+            "text": "It uses only fixed business rules."
+          },
+          {
+            "letter": "D",
+            "text": "It requires no interaction or feedback."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "During a review of reinforcement learning, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          },
+          {
+            "letter": "B",
+            "text": "It uses only fixed business rules."
+          },
+          {
+            "letter": "C",
+            "text": "It requires no interaction or feedback."
+          },
+          {
+            "letter": "D",
+            "text": "It can only process static labels."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which risk is most closely associated with reinforcement learning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It uses only fixed business rules."
+          },
+          {
+            "letter": "B",
+            "text": "It requires no interaction or feedback."
+          },
+          {
+            "letter": "C",
+            "text": "It can only process static labels."
+          },
+          {
+            "letter": "D",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "How should a tester apply reinforcement learning in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires no interaction or feedback."
+          },
+          {
+            "letter": "B",
+            "text": "It can only process static labels."
+          },
+          {
+            "letter": "C",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          },
+          {
+            "letter": "D",
+            "text": "It uses only fixed business rules."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which claim about reinforcement learning should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can only process static labels."
+          },
+          {
+            "letter": "B",
+            "text": "An agent learns from feedback associated with actions in an environment."
+          },
+          {
+            "letter": "C",
+            "text": "It uses only fixed business rules."
+          },
+          {
+            "letter": "D",
+            "text": "It requires no interaction or feedback."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which statement is most accurate about data preparation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It means deleting all unusual observations."
+          },
+          {
+            "letter": "B",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          },
+          {
+            "letter": "C",
+            "text": "It guarantees a fair model automatically."
+          },
+          {
+            "letter": "D",
+            "text": "It replaces model testing."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "When testing data preparation, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          },
+          {
+            "letter": "B",
+            "text": "It guarantees a fair model automatically."
+          },
+          {
+            "letter": "C",
+            "text": "It replaces model testing."
+          },
+          {
+            "letter": "D",
+            "text": "It means deleting all unusual observations."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "A team is evaluating data preparation. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It guarantees a fair model automatically."
+          },
+          {
+            "letter": "B",
+            "text": "It replaces model testing."
+          },
+          {
+            "letter": "C",
+            "text": "It means deleting all unusual observations."
+          },
+          {
+            "letter": "D",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Why is data preparation important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It replaces model testing."
+          },
+          {
+            "letter": "B",
+            "text": "It means deleting all unusual observations."
+          },
+          {
+            "letter": "C",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          },
+          {
+            "letter": "D",
+            "text": "It guarantees a fair model automatically."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which example best illustrates data preparation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It means deleting all unusual observations."
+          },
+          {
+            "letter": "B",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          },
+          {
+            "letter": "C",
+            "text": "It guarantees a fair model automatically."
+          },
+          {
+            "letter": "D",
+            "text": "It replaces model testing."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which test evidence would provide useful information about data preparation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          },
+          {
+            "letter": "B",
+            "text": "It guarantees a fair model automatically."
+          },
+          {
+            "letter": "C",
+            "text": "It replaces model testing."
+          },
+          {
+            "letter": "D",
+            "text": "It means deleting all unusual observations."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "During a review of data preparation, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It guarantees a fair model automatically."
+          },
+          {
+            "letter": "B",
+            "text": "It replaces model testing."
+          },
+          {
+            "letter": "C",
+            "text": "It means deleting all unusual observations."
+          },
+          {
+            "letter": "D",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which risk is most closely associated with data preparation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It replaces model testing."
+          },
+          {
+            "letter": "B",
+            "text": "It means deleting all unusual observations."
+          },
+          {
+            "letter": "C",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          },
+          {
+            "letter": "D",
+            "text": "It guarantees a fair model automatically."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "How should a tester apply data preparation in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It means deleting all unusual observations."
+          },
+          {
+            "letter": "B",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          },
+          {
+            "letter": "C",
+            "text": "It guarantees a fair model automatically."
+          },
+          {
+            "letter": "D",
+            "text": "It replaces model testing."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which claim about data preparation should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Data preparation makes data suitable and consistent for model development."
+          },
+          {
+            "letter": "B",
+            "text": "It guarantees a fair model automatically."
+          },
+          {
+            "letter": "C",
+            "text": "It replaces model testing."
+          },
+          {
+            "letter": "D",
+            "text": "It means deleting all unusual observations."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which statement is most accurate about training, validation, and test datasets?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          },
+          {
+            "letter": "B",
+            "text": "All three datasets must contain identical rows."
+          },
+          {
+            "letter": "C",
+            "text": "Test data is used for every tuning decision."
+          },
+          {
+            "letter": "D",
+            "text": "Training data is used only after deployment."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "When testing training, validation, and test datasets, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "All three datasets must contain identical rows."
+          },
+          {
+            "letter": "B",
+            "text": "Test data is used for every tuning decision."
+          },
+          {
+            "letter": "C",
+            "text": "Training data is used only after deployment."
+          },
+          {
+            "letter": "D",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "A team is evaluating training, validation, and test datasets. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Test data is used for every tuning decision."
+          },
+          {
+            "letter": "B",
+            "text": "Training data is used only after deployment."
+          },
+          {
+            "letter": "C",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          },
+          {
+            "letter": "D",
+            "text": "All three datasets must contain identical rows."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Why is training, validation, and test datasets important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Training data is used only after deployment."
+          },
+          {
+            "letter": "B",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          },
+          {
+            "letter": "C",
+            "text": "All three datasets must contain identical rows."
+          },
+          {
+            "letter": "D",
+            "text": "Test data is used for every tuning decision."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which example best illustrates training, validation, and test datasets?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          },
+          {
+            "letter": "B",
+            "text": "All three datasets must contain identical rows."
+          },
+          {
+            "letter": "C",
+            "text": "Test data is used for every tuning decision."
+          },
+          {
+            "letter": "D",
+            "text": "Training data is used only after deployment."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which test evidence would provide useful information about training, validation, and test datasets?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "All three datasets must contain identical rows."
+          },
+          {
+            "letter": "B",
+            "text": "Test data is used for every tuning decision."
+          },
+          {
+            "letter": "C",
+            "text": "Training data is used only after deployment."
+          },
+          {
+            "letter": "D",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "During a review of training, validation, and test datasets, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Test data is used for every tuning decision."
+          },
+          {
+            "letter": "B",
+            "text": "Training data is used only after deployment."
+          },
+          {
+            "letter": "C",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          },
+          {
+            "letter": "D",
+            "text": "All three datasets must contain identical rows."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which risk is most closely associated with training, validation, and test datasets?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Training data is used only after deployment."
+          },
+          {
+            "letter": "B",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          },
+          {
+            "letter": "C",
+            "text": "All three datasets must contain identical rows."
+          },
+          {
+            "letter": "D",
+            "text": "Test data is used for every tuning decision."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "How should a tester apply training, validation, and test datasets in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          },
+          {
+            "letter": "B",
+            "text": "All three datasets must contain identical rows."
+          },
+          {
+            "letter": "C",
+            "text": "Test data is used for every tuning decision."
+          },
+          {
+            "letter": "D",
+            "text": "Training data is used only after deployment."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which claim about training, validation, and test datasets should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "All three datasets must contain identical rows."
+          },
+          {
+            "letter": "B",
+            "text": "Test data is used for every tuning decision."
+          },
+          {
+            "letter": "C",
+            "text": "Training data is used only after deployment."
+          },
+          {
+            "letter": "D",
+            "text": "Validation data supports tuning while test data remains separate for final evaluation."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "Which statement is most accurate about statistical testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          },
+          {
+            "letter": "B",
+            "text": "Statistics eliminate test design."
+          },
+          {
+            "letter": "C",
+            "text": "Statistics apply only to user interfaces."
+          },
+          {
+            "letter": "D",
+            "text": "AI systems always produce random outputs."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "When testing statistical testing, what should a tester expect?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Statistics eliminate test design."
+          },
+          {
+            "letter": "B",
+            "text": "Statistics apply only to user interfaces."
+          },
+          {
+            "letter": "C",
+            "text": "AI systems always produce random outputs."
+          },
+          {
+            "letter": "D",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "A team is evaluating statistical testing. Which approach is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Statistics apply only to user interfaces."
+          },
+          {
+            "letter": "B",
+            "text": "AI systems always produce random outputs."
+          },
+          {
+            "letter": "C",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          },
+          {
+            "letter": "D",
+            "text": "Statistics eliminate test design."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Why is statistical testing important when testing an AI-based system?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "AI systems always produce random outputs."
+          },
+          {
+            "letter": "B",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          },
+          {
+            "letter": "C",
+            "text": "Statistics eliminate test design."
+          },
+          {
+            "letter": "D",
+            "text": "Statistics apply only to user interfaces."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "Which example best illustrates statistical testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          },
+          {
+            "letter": "B",
+            "text": "Statistics eliminate test design."
+          },
+          {
+            "letter": "C",
+            "text": "Statistics apply only to user interfaces."
+          },
+          {
+            "letter": "D",
+            "text": "AI systems always produce random outputs."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which test evidence would provide useful information about statistical testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Statistics eliminate test design."
+          },
+          {
+            "letter": "B",
+            "text": "Statistics apply only to user interfaces."
+          },
+          {
+            "letter": "C",
+            "text": "AI systems always produce random outputs."
+          },
+          {
+            "letter": "D",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "text": "During a review of statistical testing, which conclusion is sound?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Statistics apply only to user interfaces."
+          },
+          {
+            "letter": "B",
+            "text": "AI systems always produce random outputs."
+          },
+          {
+            "letter": "C",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          },
+          {
+            "letter": "D",
+            "text": "Statistics eliminate test design."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "text": "Which risk is most closely associated with statistical testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "AI systems always produce random outputs."
+          },
+          {
+            "letter": "B",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          },
+          {
+            "letter": "C",
+            "text": "Statistics eliminate test design."
+          },
+          {
+            "letter": "D",
+            "text": "Statistics apply only to user interfaces."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "text": "How should a tester apply statistical testing in practice?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          },
+          {
+            "letter": "B",
+            "text": "Statistics eliminate test design."
+          },
+          {
+            "letter": "C",
+            "text": "Statistics apply only to user interfaces."
+          },
+          {
+            "letter": "D",
+            "text": "AI systems always produce random outputs."
+          }
+        ],
+        "correct": "A"
+      },
+      {
+        "text": "Which claim about statistical testing should a tester challenge?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Statistics eliminate test design."
+          },
+          {
+            "letter": "B",
+            "text": "Statistics apply only to user interfaces."
+          },
+          {
+            "letter": "C",
+            "text": "AI systems always produce random outputs."
+          },
+          {
+            "letter": "D",
+            "text": "A statistical approach evaluates behavior across representative repeated observations."
+          }
+        ],
+        "correct": "D"
+      }
+    ]
+  }
+}

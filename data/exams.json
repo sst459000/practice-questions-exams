@@ -1,0 +1,3386 @@
+{
+  "set-1": {
+    "id": "set-1",
+    "title": "Practice Exam 1",
+    "questions": [
+      {
+        "text": "Which statement best describes a useful outcome of testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It proves that the product contains no defects."
+          },
+          {
+            "letter": "B",
+            "text": "It replaces the need for requirements reviews."
+          },
+          {
+            "letter": "C",
+            "text": "It guarantees that users will accept the product."
+          },
+          {
+            "letter": "D",
+            "text": "It provides information about quality and risk."
+          }
+        ]
+      },
+      {
+        "text": "Which option best distinguishes testing from debugging?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Testing is done only by developers, while debugging is done only by testers."
+          },
+          {
+            "letter": "B",
+            "text": "Testing detects failures or defects, while debugging finds and fixes causes."
+          },
+          {
+            "letter": "C",
+            "text": "Testing is static, while debugging is always dynamic."
+          },
+          {
+            "letter": "D",
+            "text": "Testing happens after release, while debugging happens before release."
+          }
+        ]
+      },
+      {
+        "text": "Which sequence best shows the relationship between human error, defect, and failure?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Failure creates a defect, which causes an error."
+          },
+          {
+            "letter": "B",
+            "text": "Defect creates an error, which causes a failure."
+          },
+          {
+            "letter": "C",
+            "text": "Error may introduce a defect, which may cause a failure."
+          },
+          {
+            "letter": "D",
+            "text": "Failure prevents defects from being introduced."
+          }
+        ]
+      },
+      {
+        "text": "A system meets every specified requirement, but users still cannot complete their main business workflow. Which testing principle is most relevant?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Defect clustering"
+          },
+          {
+            "letter": "B",
+            "text": "Pesticide paradox"
+          },
+          {
+            "letter": "C",
+            "text": "Absence-of-errors fallacy"
+          },
+          {
+            "letter": "D",
+            "text": "Exhaustive testing is impossible"
+          }
+        ]
+      },
+      {
+        "text": "What is the main idea behind shift-left testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Start test activities earlier in the lifecycle."
+          },
+          {
+            "letter": "B",
+            "text": "Move all testing to production."
+          },
+          {
+            "letter": "C",
+            "text": "Allow only testers to review requirements."
+          },
+          {
+            "letter": "D",
+            "text": "Execute only automated tests before release."
+          }
+        ]
+      },
+      {
+        "text": "Which of the following is testware?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only the application executable"
+          },
+          {
+            "letter": "B",
+            "text": "Only source code written by developers"
+          },
+          {
+            "letter": "C",
+            "text": "Only the production server"
+          },
+          {
+            "letter": "D",
+            "text": "Test cases, test data, test scripts, and test reports"
+          }
+        ]
+      },
+      {
+        "text": "Why is traceability between the test basis and testware useful?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It removes the need to prioritize testing."
+          },
+          {
+            "letter": "B",
+            "text": "It guarantees full defect removal."
+          },
+          {
+            "letter": "C",
+            "text": "It helps assess coverage and impact of changes."
+          },
+          {
+            "letter": "D",
+            "text": "It prevents all requirement changes."
+          }
+        ]
+      },
+      {
+        "text": "Which work product is most likely to be used as a test basis for component testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Component design or code specification"
+          },
+          {
+            "letter": "B",
+            "text": "Marketing brochure"
+          },
+          {
+            "letter": "C",
+            "text": "Production incident report only"
+          },
+          {
+            "letter": "D",
+            "text": "User training calendar"
+          }
+        ]
+      },
+      {
+        "text": "What is the usual focus of component testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Testing complete end-to-end business processes"
+          },
+          {
+            "letter": "B",
+            "text": "Testing individual components in isolation where practical"
+          },
+          {
+            "letter": "C",
+            "text": "Testing contracts between external organizations"
+          },
+          {
+            "letter": "D",
+            "text": "Testing user acceptance in a live environment"
+          }
+        ]
+      },
+      {
+        "text": "Which statement best describes integration testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It checks whether users like the interface."
+          },
+          {
+            "letter": "B",
+            "text": "It tests the source code without executing it."
+          },
+          {
+            "letter": "C",
+            "text": "It focuses on interactions between components or systems."
+          },
+          {
+            "letter": "D",
+            "text": "It is performed only after the product is deployed."
+          }
+        ]
+      },
+      {
+        "text": "Which is the best example of system testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Testing the complete application against system requirements"
+          },
+          {
+            "letter": "B",
+            "text": "Testing a single function in isolation with stubs"
+          },
+          {
+            "letter": "C",
+            "text": "Reviewing code formatting rules"
+          },
+          {
+            "letter": "D",
+            "text": "Debugging a failed unit test"
+          }
+        ]
+      },
+      {
+        "text": "Which is the main purpose of acceptance testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To verify every source code branch"
+          },
+          {
+            "letter": "B",
+            "text": "To replace all previous test levels"
+          },
+          {
+            "letter": "C",
+            "text": "To find syntax errors in code"
+          },
+          {
+            "letter": "D",
+            "text": "To establish confidence that the system meets business needs"
+          }
+        ]
+      },
+      {
+        "text": "Which of the following is a non-functional test?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Verify that a user can add an item to a cart."
+          },
+          {
+            "letter": "B",
+            "text": "Verify that tax is calculated correctly."
+          },
+          {
+            "letter": "C",
+            "text": "Verify that a page responds within two seconds under expected load."
+          },
+          {
+            "letter": "D",
+            "text": "Verify that an invoice contains the correct customer name."
+          }
+        ]
+      },
+      {
+        "text": "Which statement describes confirmation testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Testing that changed code has not affected unrelated features"
+          },
+          {
+            "letter": "B",
+            "text": "Testing whether a specific reported defect has been fixed"
+          },
+          {
+            "letter": "C",
+            "text": "Testing the whole system before any defect is fixed"
+          },
+          {
+            "letter": "D",
+            "text": "Testing performed only by end users"
+          }
+        ]
+      },
+      {
+        "text": "Which situation is a common trigger for maintenance testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A change is made to an existing operational system."
+          },
+          {
+            "letter": "B",
+            "text": "The project has no requirements."
+          },
+          {
+            "letter": "C",
+            "text": "The team decides not to release the software."
+          },
+          {
+            "letter": "D",
+            "text": "A tester completes professional training."
+          }
+        ]
+      },
+      {
+        "text": "Which is a benefit of static testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can only find failures after code execution."
+          },
+          {
+            "letter": "B",
+            "text": "It proves that executable code has no defects."
+          },
+          {
+            "letter": "C",
+            "text": "It replaces all forms of dynamic testing."
+          },
+          {
+            "letter": "D",
+            "text": "It can find defects before the software is run."
+          }
+        ]
+      },
+      {
+        "text": "In a formal review, which role records review meeting findings and decisions?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Author"
+          },
+          {
+            "letter": "B",
+            "text": "Manager"
+          },
+          {
+            "letter": "C",
+            "text": "Scribe"
+          },
+          {
+            "letter": "D",
+            "text": "Customer"
+          }
+        ]
+      },
+      {
+        "text": "What is a typical objective of a review?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Find defects in a work product early."
+          },
+          {
+            "letter": "B",
+            "text": "Execute all planned test cases."
+          },
+          {
+            "letter": "C",
+            "text": "Measure response time under load."
+          },
+          {
+            "letter": "D",
+            "text": "Deploy the application to production."
+          }
+        ]
+      },
+      {
+        "text": "Which review type is usually the most formal and follows a defined process with documented roles and metrics?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Informal review"
+          },
+          {
+            "letter": "B",
+            "text": "Inspection"
+          },
+          {
+            "letter": "C",
+            "text": "Pair review"
+          },
+          {
+            "letter": "D",
+            "text": "Ad hoc walkthrough"
+          }
+        ]
+      },
+      {
+        "text": "A field accepts ages from 18 to 65 inclusive. Which set best represents equivalence partitions?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "17, 18, 65, 66"
+          },
+          {
+            "letter": "B",
+            "text": "18, 19, 64, 65"
+          },
+          {
+            "letter": "C",
+            "text": "Below 18, 18 to 65, above 65"
+          },
+          {
+            "letter": "D",
+            "text": "0, 1, 2, 3"
+          }
+        ]
+      },
+      {
+        "text": "A field accepts whole numbers from 1 to 100 inclusive. Using three-value boundary value analysis, which set is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "0, 1, 2, 99, 100, 101"
+          },
+          {
+            "letter": "B",
+            "text": "1, 50, 100"
+          },
+          {
+            "letter": "C",
+            "text": "-1, 0, 101, 102"
+          },
+          {
+            "letter": "D",
+            "text": "25, 50, 75, 100"
+          }
+        ]
+      },
+      {
+        "text": "Which technique is especially useful when business rules depend on combinations of conditions?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Statement testing"
+          },
+          {
+            "letter": "B",
+            "text": "Error guessing"
+          },
+          {
+            "letter": "C",
+            "text": "Decision table testing"
+          },
+          {
+            "letter": "D",
+            "text": "Branch testing"
+          }
+        ]
+      },
+      {
+        "text": "Which test technique is most suitable when valid behavior depends on the current state and a sequence of events?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Equivalence partitioning"
+          },
+          {
+            "letter": "B",
+            "text": "State transition testing"
+          },
+          {
+            "letter": "C",
+            "text": "Pair testing"
+          },
+          {
+            "letter": "D",
+            "text": "Statement testing"
+          }
+        ]
+      },
+      {
+        "text": "Which technique derives tests from interactions between actors and the system to achieve user goals?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Use case testing"
+          },
+          {
+            "letter": "B",
+            "text": "Branch testing"
+          },
+          {
+            "letter": "C",
+            "text": "Statement testing"
+          },
+          {
+            "letter": "D",
+            "text": "Static analysis"
+          }
+        ]
+      },
+      {
+        "text": "What does statement coverage measure?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The percentage of reviewed requirements"
+          },
+          {
+            "letter": "B",
+            "text": "The number of test cases created per day"
+          },
+          {
+            "letter": "C",
+            "text": "The percentage of users involved in testing"
+          },
+          {
+            "letter": "D",
+            "text": "The percentage of executable statements exercised by tests"
+          }
+        ]
+      },
+      {
+        "text": "What does branch coverage measure?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The percentage of requirements with at least one test case"
+          },
+          {
+            "letter": "B",
+            "text": "The percentage of decision outcomes exercised by tests"
+          },
+          {
+            "letter": "C",
+            "text": "The number of defects assigned to developers"
+          },
+          {
+            "letter": "D",
+            "text": "The number of automated tests in a suite"
+          }
+        ]
+      },
+      {
+        "text": "Which is the best description of error guessing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Randomly clicking through the product without a goal"
+          },
+          {
+            "letter": "B",
+            "text": "Proving that no errors remain in the product"
+          },
+          {
+            "letter": "C",
+            "text": "Using experience to anticipate likely defects and failures"
+          },
+          {
+            "letter": "D",
+            "text": "Selecting tests only from formal specifications"
+          }
+        ]
+      },
+      {
+        "text": "Which statement best describes exploratory testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Tests are designed, executed, and adjusted based on learning."
+          },
+          {
+            "letter": "B",
+            "text": "Tests are generated only by a tool."
+          },
+          {
+            "letter": "C",
+            "text": "Tests are executed exactly as pre-scripted with no deviation."
+          },
+          {
+            "letter": "D",
+            "text": "Tests are limited to code coverage measurement."
+          }
+        ]
+      },
+      {
+        "text": "What is checklist-based testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Testing based only on source code branches"
+          },
+          {
+            "letter": "B",
+            "text": "Testing based only on performance counters"
+          },
+          {
+            "letter": "C",
+            "text": "Testing that avoids any tester experience"
+          },
+          {
+            "letter": "D",
+            "text": "Testing guided by a list of conditions or areas to check"
+          }
+        ]
+      },
+      {
+        "text": "Which information is most useful in a defect report?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The tester's opinion that the developer made a mistake"
+          },
+          {
+            "letter": "B",
+            "text": "Only a screenshot, without steps or environment details"
+          },
+          {
+            "letter": "C",
+            "text": "Steps to reproduce, actual result, expected result, and environment"
+          },
+          {
+            "letter": "D",
+            "text": "A request to fix the issue without describing the failure"
+          }
+        ]
+      },
+      {
+        "text": "Which statement best distinguishes severity from priority?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Severity and priority always have the same value."
+          },
+          {
+            "letter": "B",
+            "text": "Severity reflects impact; priority reflects urgency or order of fixing."
+          },
+          {
+            "letter": "C",
+            "text": "Severity is assigned only after release."
+          },
+          {
+            "letter": "D",
+            "text": "Priority measures how hard the defect is to reproduce."
+          }
+        ]
+      },
+      {
+        "text": "Which item normally belongs in a test plan?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Scope, approach, resources, schedule, risks, and criteria"
+          },
+          {
+            "letter": "B",
+            "text": "Only the final defect list"
+          },
+          {
+            "letter": "C",
+            "text": "Only source code comments"
+          },
+          {
+            "letter": "D",
+            "text": "Only customer invoices"
+          }
+        ]
+      },
+      {
+        "text": "Which is an example of an entry criterion for test execution?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "All planned tests have passed."
+          },
+          {
+            "letter": "B",
+            "text": "The test summary report is approved."
+          },
+          {
+            "letter": "C",
+            "text": "The product has been retired."
+          },
+          {
+            "letter": "D",
+            "text": "The test environment and required test data are available."
+          }
+        ]
+      },
+      {
+        "text": "Which is an example of an exit criterion?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "No developer has started coding."
+          },
+          {
+            "letter": "B",
+            "text": "Required coverage has been achieved and unresolved risks are acceptable."
+          },
+          {
+            "letter": "C",
+            "text": "The test environment has not been built."
+          },
+          {
+            "letter": "D",
+            "text": "The requirements are unavailable."
+          }
+        ]
+      },
+      {
+        "text": "Which is a test monitoring metric?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Favorite programming language of the team"
+          },
+          {
+            "letter": "B",
+            "text": "Number of office locations"
+          },
+          {
+            "letter": "C",
+            "text": "Test cases passed, failed, blocked, and not run"
+          },
+          {
+            "letter": "D",
+            "text": "Number of meetings on the calendar"
+          }
+        ]
+      },
+      {
+        "text": "Which is a product risk?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The payment feature may fail for valid cards."
+          },
+          {
+            "letter": "B",
+            "text": "The test team may be understaffed."
+          },
+          {
+            "letter": "C",
+            "text": "The test environment may be delivered late."
+          },
+          {
+            "letter": "D",
+            "text": "The vendor contract may expire."
+          }
+        ]
+      },
+      {
+        "text": "Product risk level is commonly assessed using which two factors?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Developer preference and tester availability"
+          },
+          {
+            "letter": "B",
+            "text": "Test case count and meeting count"
+          },
+          {
+            "letter": "C",
+            "text": "Tool cost and training duration"
+          },
+          {
+            "letter": "D",
+            "text": "Likelihood and impact"
+          }
+        ]
+      },
+      {
+        "text": "Which is a risk of test automation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It always eliminates the need for manual testing."
+          },
+          {
+            "letter": "B",
+            "text": "Poorly maintained automated tests can give misleading results."
+          },
+          {
+            "letter": "C",
+            "text": "It prevents regression testing."
+          },
+          {
+            "letter": "D",
+            "text": "It can only be used for performance testing."
+          }
+        ]
+      },
+      {
+        "text": "Why should a team usually pilot a test tool before full adoption?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To avoid defining any objectives"
+          },
+          {
+            "letter": "B",
+            "text": "To replace all test management activities"
+          },
+          {
+            "letter": "C",
+            "text": "To evaluate fit, benefits, costs, and integration issues"
+          },
+          {
+            "letter": "D",
+            "text": "To ensure no training is needed"
+          }
+        ]
+      },
+      {
+        "text": "In a DevOps or continuous integration context, why are fast automated tests valuable?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They provide quick feedback on recent changes."
+          },
+          {
+            "letter": "B",
+            "text": "They prove that no defects exist."
+          },
+          {
+            "letter": "C",
+            "text": "They remove the need for version control."
+          },
+          {
+            "letter": "D",
+            "text": "They are useful only after production release."
+          }
+        ]
+      }
+    ]
+  },
+  "set-2": {
+    "id": "set-2",
+    "title": "Practice Exam 2",
+    "questions": [
+      {
+        "text": "Which statement best describes the relationship between quality assurance and testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Quality assurance is the same thing as debugging."
+          },
+          {
+            "letter": "B",
+            "text": "Quality assurance is process-oriented; testing is product-oriented."
+          },
+          {
+            "letter": "C",
+            "text": "Testing replaces quality assurance."
+          },
+          {
+            "letter": "D",
+            "text": "Quality assurance only happens after release."
+          }
+        ]
+      },
+      {
+        "text": "Which is the best example of a root cause?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The application displays an error page."
+          },
+          {
+            "letter": "B",
+            "text": "A test case fails during execution."
+          },
+          {
+            "letter": "C",
+            "text": "A user cannot submit an order."
+          },
+          {
+            "letter": "D",
+            "text": "The team misunderstood a regulatory rule during requirements analysis."
+          }
+        ]
+      },
+      {
+        "text": "Which testing principle says that repeating the same tests will eventually become less effective at finding new defects?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Pesticide paradox"
+          },
+          {
+            "letter": "B",
+            "text": "Defect clustering"
+          },
+          {
+            "letter": "C",
+            "text": "Testing is context dependent"
+          },
+          {
+            "letter": "D",
+            "text": "Absence-of-errors fallacy"
+          }
+        ]
+      },
+      {
+        "text": "Which term describes the work product to be tested?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Test log"
+          },
+          {
+            "letter": "B",
+            "text": "Test condition"
+          },
+          {
+            "letter": "C",
+            "text": "Test object"
+          },
+          {
+            "letter": "D",
+            "text": "Test charter"
+          }
+        ]
+      },
+      {
+        "text": "Which behavior best reflects a tester's mindset?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Assuming the system works because developers are skilled"
+          },
+          {
+            "letter": "B",
+            "text": "Asking critical questions and looking for possible failures"
+          },
+          {
+            "letter": "C",
+            "text": "Avoiding communication with developers"
+          },
+          {
+            "letter": "D",
+            "text": "Changing requirements during test execution"
+          }
+        ]
+      },
+      {
+        "text": "What does the whole-team approach in Agile emphasize?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Testers work only after developers finish all coding."
+          },
+          {
+            "letter": "B",
+            "text": "Only product owners are responsible for quality."
+          },
+          {
+            "letter": "C",
+            "text": "Testing is avoided in short iterations."
+          },
+          {
+            "letter": "D",
+            "text": "The team shares responsibility for quality and testing activities."
+          }
+        ]
+      },
+      {
+        "text": "What is a benefit of independent testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Independent testers may find different kinds of defects due to a different perspective."
+          },
+          {
+            "letter": "B",
+            "text": "It guarantees faster delivery."
+          },
+          {
+            "letter": "C",
+            "text": "It removes the need for developers to test."
+          },
+          {
+            "letter": "D",
+            "text": "It ensures all defects are found."
+          }
+        ]
+      },
+      {
+        "text": "In iterative development, when can testing activities begin?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only after the last iteration"
+          },
+          {
+            "letter": "B",
+            "text": "Only after deployment"
+          },
+          {
+            "letter": "C",
+            "text": "Early and continuously within iterations"
+          },
+          {
+            "letter": "D",
+            "text": "Only after all documentation is complete"
+          }
+        ]
+      },
+      {
+        "text": "Which statement about test levels is correct?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Each test level must use exactly the same test basis."
+          },
+          {
+            "letter": "B",
+            "text": "Test levels help organize testing by objectives and scope."
+          },
+          {
+            "letter": "C",
+            "text": "Test levels are used only in sequential lifecycle models."
+          },
+          {
+            "letter": "D",
+            "text": "Test levels prevent the need for test types."
+          }
+        ]
+      },
+      {
+        "text": "Which statement about white-box testing is correct?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It can only be used during acceptance testing."
+          },
+          {
+            "letter": "B",
+            "text": "It is based only on user stories."
+          },
+          {
+            "letter": "C",
+            "text": "It never requires knowledge of internal structure."
+          },
+          {
+            "letter": "D",
+            "text": "It can be applied at different test levels when structure is known."
+          }
+        ]
+      },
+      {
+        "text": "Which list contains only non-functional quality characteristics?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Login, checkout, refund"
+          },
+          {
+            "letter": "B",
+            "text": "Add, edit, delete"
+          },
+          {
+            "letter": "C",
+            "text": "Performance, usability, reliability"
+          },
+          {
+            "letter": "D",
+            "text": "Tax, discount, shipping fee"
+          }
+        ]
+      },
+      {
+        "text": "Which statement correctly compares confirmation testing and regression testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Confirmation testing checks a fix; regression testing checks for unintended side effects."
+          },
+          {
+            "letter": "B",
+            "text": "Confirmation testing and regression testing are always identical."
+          },
+          {
+            "letter": "C",
+            "text": "Regression testing is only done before a defect is fixed."
+          },
+          {
+            "letter": "D",
+            "text": "Confirmation testing is only static."
+          }
+        ]
+      },
+      {
+        "text": "What is the purpose of impact analysis in maintenance testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To assign blame for defects"
+          },
+          {
+            "letter": "B",
+            "text": "To identify what may be affected by a change"
+          },
+          {
+            "letter": "C",
+            "text": "To calculate salaries for the test team"
+          },
+          {
+            "letter": "D",
+            "text": "To avoid all regression testing"
+          }
+        ]
+      },
+      {
+        "text": "Which statement best distinguishes static analysis from review?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Reviews are always automated; static analysis is always manual."
+          },
+          {
+            "letter": "B",
+            "text": "Static analysis requires executing the software."
+          },
+          {
+            "letter": "C",
+            "text": "Reviews can only be performed on source code."
+          },
+          {
+            "letter": "D",
+            "text": "Static analysis is tool-supported evaluation without executing the work product."
+          }
+        ]
+      },
+      {
+        "text": "Which is a likely outcome of an effective review?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "All dynamic testing becomes unnecessary."
+          },
+          {
+            "letter": "B",
+            "text": "The product is automatically released."
+          },
+          {
+            "letter": "C",
+            "text": "Defects and improvement opportunities are identified early."
+          },
+          {
+            "letter": "D",
+            "text": "Source code coverage increases during the review meeting."
+          }
+        ]
+      },
+      {
+        "text": "During review planning, which activity is most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Define scope, participants, entry criteria, and review type."
+          },
+          {
+            "letter": "B",
+            "text": "Execute performance test scripts."
+          },
+          {
+            "letter": "C",
+            "text": "Deploy the system to production."
+          },
+          {
+            "letter": "D",
+            "text": "Close every defect report."
+          }
+        ]
+      },
+      {
+        "text": "Which statement correctly distinguishes test analysis from test design?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Test analysis executes tests; test design fixes defects."
+          },
+          {
+            "letter": "B",
+            "text": "Test analysis identifies what to test; test design defines how to test it."
+          },
+          {
+            "letter": "C",
+            "text": "Test analysis is always automated; test design is always manual."
+          },
+          {
+            "letter": "D",
+            "text": "Test analysis is only performed after release."
+          }
+        ]
+      },
+      {
+        "text": "Which is most likely to be included in a test case?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only the developer's name"
+          },
+          {
+            "letter": "B",
+            "text": "Only a project budget"
+          },
+          {
+            "letter": "C",
+            "text": "Preconditions, inputs, actions, and expected results"
+          },
+          {
+            "letter": "D",
+            "text": "Only production monitoring alerts"
+          }
+        ]
+      },
+      {
+        "text": "Which activity belongs to test implementation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Deciding the company strategy"
+          },
+          {
+            "letter": "B",
+            "text": "Defining the business case for the project"
+          },
+          {
+            "letter": "C",
+            "text": "Removing obsolete production data"
+          },
+          {
+            "letter": "D",
+            "text": "Creating test suites, test procedures, and test data"
+          }
+        ]
+      },
+      {
+        "text": "What is the purpose of a test execution log?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To record test execution status, results, and relevant observations"
+          },
+          {
+            "letter": "B",
+            "text": "To replace defect reports"
+          },
+          {
+            "letter": "C",
+            "text": "To approve requirements before review"
+          },
+          {
+            "letter": "D",
+            "text": "To calculate developer performance ratings"
+          }
+        ]
+      },
+      {
+        "text": "Which activity is part of test completion?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Writing the first user story"
+          },
+          {
+            "letter": "B",
+            "text": "Archiving testware and documenting lessons learned"
+          },
+          {
+            "letter": "C",
+            "text": "Starting component design"
+          },
+          {
+            "letter": "D",
+            "text": "Creating the initial project budget"
+          }
+        ]
+      },
+      {
+        "text": "What is a coverage criterion?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A rule for assigning developers to defects"
+          },
+          {
+            "letter": "B",
+            "text": "A measure of office attendance"
+          },
+          {
+            "letter": "C",
+            "text": "A condition used to decide how thoroughly something has been tested"
+          },
+          {
+            "letter": "D",
+            "text": "A type of production database backup"
+          }
+        ]
+      },
+      {
+        "text": "Why are high-risk areas often tested earlier or more intensively?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They are always easier to test."
+          },
+          {
+            "letter": "B",
+            "text": "They never need regression testing."
+          },
+          {
+            "letter": "C",
+            "text": "They are never automated."
+          },
+          {
+            "letter": "D",
+            "text": "Failures there are more likely or more harmful."
+          }
+        ]
+      },
+      {
+        "text": "A quantity field accepts whole numbers 5 through 10 inclusive. Which set represents equivalence partitions?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Less than 5, 5 through 10, greater than 10"
+          },
+          {
+            "letter": "B",
+            "text": "4, 5, 10, 11"
+          },
+          {
+            "letter": "C",
+            "text": "5, 6, 9, 10"
+          },
+          {
+            "letter": "D",
+            "text": "0, 5, 7, 10, 15"
+          }
+        ]
+      },
+      {
+        "text": "A price field accepts values from 10 to 20 inclusive. Using two-value boundary value analysis, which values are most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "10, 15, 20"
+          },
+          {
+            "letter": "B",
+            "text": "9, 10, 20, 21"
+          },
+          {
+            "letter": "C",
+            "text": "11, 12, 18, 19"
+          },
+          {
+            "letter": "D",
+            "text": "0, 5, 25, 30"
+          }
+        ]
+      },
+      {
+        "text": "In decision table testing, why might equivalent columns be collapsed?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To remove expected results from tests"
+          },
+          {
+            "letter": "B",
+            "text": "To avoid testing any invalid combinations"
+          },
+          {
+            "letter": "C",
+            "text": "To reduce redundant tests while preserving rule coverage"
+          },
+          {
+            "letter": "D",
+            "text": "To convert the table into source code"
+          }
+        ]
+      },
+      {
+        "text": "In state transition testing, what is an invalid transition?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A transition that appears in the model"
+          },
+          {
+            "letter": "B",
+            "text": "A transition that moves from one valid state to another valid state"
+          },
+          {
+            "letter": "C",
+            "text": "A transition triggered by a documented event"
+          },
+          {
+            "letter": "D",
+            "text": "A transition that should not be allowed by the system"
+          }
+        ]
+      },
+      {
+        "text": "What is the main purpose of pairwise testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To cover all pairs of values across parameters with fewer tests than all combinations"
+          },
+          {
+            "letter": "B",
+            "text": "To test only two users at a time"
+          },
+          {
+            "letter": "C",
+            "text": "To replace requirements analysis"
+          },
+          {
+            "letter": "D",
+            "text": "To guarantee that all defects are found"
+          }
+        ]
+      },
+      {
+        "text": "Which statement is true about 100% statement coverage?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It proves there are no defects."
+          },
+          {
+            "letter": "B",
+            "text": "It does not necessarily mean all branch outcomes were tested."
+          },
+          {
+            "letter": "C",
+            "text": "It always includes all possible input values."
+          },
+          {
+            "letter": "D",
+            "text": "It is the same as acceptance testing."
+          }
+        ]
+      },
+      {
+        "text": "Which statement is true about 100% branch coverage?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It means no defects remain."
+          },
+          {
+            "letter": "B",
+            "text": "It cannot be measured."
+          },
+          {
+            "letter": "C",
+            "text": "It generally subsumes statement coverage for the covered code."
+          },
+          {
+            "letter": "D",
+            "text": "It is a black-box coverage measure."
+          }
+        ]
+      },
+      {
+        "text": "Which artifact often guides session-based exploratory testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A production invoice"
+          },
+          {
+            "letter": "B",
+            "text": "A source code compiler"
+          },
+          {
+            "letter": "C",
+            "text": "A release contract only"
+          },
+          {
+            "letter": "D",
+            "text": "A test charter"
+          }
+        ]
+      },
+      {
+        "text": "How do acceptance criteria for a user story support testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They provide conditions that help derive tests for the story."
+          },
+          {
+            "letter": "B",
+            "text": "They replace all test execution."
+          },
+          {
+            "letter": "C",
+            "text": "They are used only after release."
+          },
+          {
+            "letter": "D",
+            "text": "They are unrelated to test design."
+          }
+        ]
+      },
+      {
+        "text": "Which is a typical defect report lifecycle status?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Vacation"
+          },
+          {
+            "letter": "B",
+            "text": "Open"
+          },
+          {
+            "letter": "C",
+            "text": "Marketing"
+          },
+          {
+            "letter": "D",
+            "text": "Archived requirement"
+          }
+        ]
+      },
+      {
+        "text": "What does configuration management help ensure during testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Developers never make mistakes."
+          },
+          {
+            "letter": "B",
+            "text": "Testers never need environments."
+          },
+          {
+            "letter": "C",
+            "text": "Test items, testware, and versions are identified and controlled."
+          },
+          {
+            "letter": "D",
+            "text": "All defects are automatically fixed."
+          }
+        ]
+      },
+      {
+        "text": "Which factor can influence test estimation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Complexity of the product"
+          },
+          {
+            "letter": "B",
+            "text": "Required test levels and test types"
+          },
+          {
+            "letter": "C",
+            "text": "Skills and availability of people"
+          },
+          {
+            "letter": "D",
+            "text": "All of the above"
+          }
+        ]
+      },
+      {
+        "text": "How can testing help mitigate product risk?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "By providing information about failures and quality in risk areas"
+          },
+          {
+            "letter": "B",
+            "text": "By removing the need for risk analysis"
+          },
+          {
+            "letter": "C",
+            "text": "By guaranteeing no failures in production"
+          },
+          {
+            "letter": "D",
+            "text": "By preventing all requirement changes"
+          }
+        ]
+      },
+      {
+        "text": "Which is a test control action?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Recording that ten tests failed"
+          },
+          {
+            "letter": "B",
+            "text": "Reprioritizing tests after a serious product risk is discovered"
+          },
+          {
+            "letter": "C",
+            "text": "Counting how many defects are open"
+          },
+          {
+            "letter": "D",
+            "text": "Displaying a progress chart without changing anything"
+          }
+        ]
+      },
+      {
+        "text": "What is the purpose of a test summary report?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To replace the test plan"
+          },
+          {
+            "letter": "B",
+            "text": "To hide unresolved risks"
+          },
+          {
+            "letter": "C",
+            "text": "To summarize test activities, results, risks, and quality information"
+          },
+          {
+            "letter": "D",
+            "text": "To list only source code files"
+          }
+        ]
+      },
+      {
+        "text": "Which situation is most likely to reduce the return on investment of test automation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Stable features tested repeatedly"
+          },
+          {
+            "letter": "B",
+            "text": "Clear automation objectives"
+          },
+          {
+            "letter": "C",
+            "text": "Skilled automation maintainers"
+          },
+          {
+            "letter": "D",
+            "text": "Frequently changing UI with fragile scripts and low reuse"
+          }
+        ]
+      },
+      {
+        "text": "Which factor is most important when selecting a test tool?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Fit with testing objectives, processes, skills, and environment"
+          },
+          {
+            "letter": "B",
+            "text": "Whether the tool has the longest feature list"
+          },
+          {
+            "letter": "C",
+            "text": "Whether no training is ever required"
+          },
+          {
+            "letter": "D",
+            "text": "Whether it eliminates all manual testing"
+          }
+        ]
+      }
+    ]
+  },
+  "set-3": {
+    "id": "set-3",
+    "title": "Practice Exam 3",
+    "questions": [
+      {
+        "text": "Which principle says that testing can demonstrate defects are present but cannot prove there are no defects?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Pesticide paradox"
+          },
+          {
+            "letter": "B",
+            "text": "Testing shows presence, not absence of defects"
+          },
+          {
+            "letter": "C",
+            "text": "Defect clustering"
+          },
+          {
+            "letter": "D",
+            "text": "Testing is context dependent"
+          }
+        ]
+      },
+      {
+        "text": "Why is exhaustive testing usually impossible?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Testers are not allowed to test invalid inputs."
+          },
+          {
+            "letter": "B",
+            "text": "Developers always find all defects first."
+          },
+          {
+            "letter": "C",
+            "text": "Reviews remove the need for execution."
+          },
+          {
+            "letter": "D",
+            "text": "The number of possible combinations is usually too large."
+          }
+        ]
+      },
+      {
+        "text": "Which statement best describes defect clustering?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A small number of areas often contain many defects."
+          },
+          {
+            "letter": "B",
+            "text": "Defects are evenly distributed across all modules."
+          },
+          {
+            "letter": "C",
+            "text": "Defects occur only in new features."
+          },
+          {
+            "letter": "D",
+            "text": "Defects cannot be predicted from history."
+          }
+        ]
+      },
+      {
+        "text": "Why is early testing valuable?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It guarantees that no failures will occur later."
+          },
+          {
+            "letter": "B",
+            "text": "It removes the need for test execution."
+          },
+          {
+            "letter": "C",
+            "text": "It can find defects when they are cheaper to fix."
+          },
+          {
+            "letter": "D",
+            "text": "It ensures that all possible paths are tested."
+          }
+        ]
+      },
+      {
+        "text": "Which statement illustrates that testing is context dependent?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The same test strategy is always best for every product."
+          },
+          {
+            "letter": "B",
+            "text": "Safety-critical software and a simple marketing website need identical testing."
+          },
+          {
+            "letter": "C",
+            "text": "Testing should ignore business risk."
+          },
+          {
+            "letter": "D",
+            "text": "The test approach depends on the domain, risks, objectives, and constraints."
+          }
+        ]
+      },
+      {
+        "text": "A product has few known defects but fails to solve the users' real problem. Which principle applies?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Exhaustive testing is impossible"
+          },
+          {
+            "letter": "B",
+            "text": "Absence-of-errors fallacy"
+          },
+          {
+            "letter": "C",
+            "text": "Defect clustering"
+          },
+          {
+            "letter": "D",
+            "text": "Pesticide paradox"
+          }
+        ]
+      },
+      {
+        "text": "Which example correctly identifies an error?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A developer misunderstands a calculation rule."
+          },
+          {
+            "letter": "B",
+            "text": "A wrong formula is stored in the code."
+          },
+          {
+            "letter": "C",
+            "text": "The system displays an incorrect total."
+          },
+          {
+            "letter": "D",
+            "text": "A customer sees the wrong invoice amount."
+          }
+        ]
+      },
+      {
+        "text": "What is a test oracle?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A tool that creates all required tests automatically"
+          },
+          {
+            "letter": "B",
+            "text": "A person who approves budgets"
+          },
+          {
+            "letter": "C",
+            "text": "A source used to determine expected results"
+          },
+          {
+            "letter": "D",
+            "text": "A database backup used for recovery"
+          }
+        ]
+      },
+      {
+        "text": "Which is the best example of a test condition?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Click Submit after entering user ID 123."
+          },
+          {
+            "letter": "B",
+            "text": "Expected result: order confirmation appears."
+          },
+          {
+            "letter": "C",
+            "text": "Actual result: error 500 appears."
+          },
+          {
+            "letter": "D",
+            "text": "Ability to reset a password with a registered email address."
+          }
+        ]
+      },
+      {
+        "text": "Which statement best distinguishes a test case from a test procedure?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A test case is always automated; a test procedure is always manual."
+          },
+          {
+            "letter": "B",
+            "text": "A test case defines inputs and expected results; a test procedure gives execution steps or order."
+          },
+          {
+            "letter": "C",
+            "text": "A test procedure is a defect report."
+          },
+          {
+            "letter": "D",
+            "text": "A test case is created only after release."
+          }
+        ]
+      },
+      {
+        "text": "What is test data?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Data needed to execute test cases"
+          },
+          {
+            "letter": "B",
+            "text": "A list of team members"
+          },
+          {
+            "letter": "C",
+            "text": "A schedule for stakeholder meetings"
+          },
+          {
+            "letter": "D",
+            "text": "A summary of production revenue"
+          }
+        ]
+      },
+      {
+        "text": "What is a test environment?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The organization chart of the test team"
+          },
+          {
+            "letter": "B",
+            "text": "The list of all requirements"
+          },
+          {
+            "letter": "C",
+            "text": "The hardware, software, tools, data, and network setup used for testing"
+          },
+          {
+            "letter": "D",
+            "text": "The final release announcement"
+          }
+        ]
+      },
+      {
+        "text": "What is the main purpose of defining test levels?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To force all testing to happen at the end"
+          },
+          {
+            "letter": "B",
+            "text": "To avoid test planning"
+          },
+          {
+            "letter": "C",
+            "text": "To ensure only developers perform testing"
+          },
+          {
+            "letter": "D",
+            "text": "To structure testing around different objectives and scopes"
+          }
+        ]
+      },
+      {
+        "text": "What is component integration testing mainly concerned with?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Whether users accept the complete product"
+          },
+          {
+            "letter": "B",
+            "text": "Interfaces and interactions between integrated components"
+          },
+          {
+            "letter": "C",
+            "text": "The performance of the production support team"
+          },
+          {
+            "letter": "D",
+            "text": "Whether requirements documents have spelling errors"
+          }
+        ]
+      },
+      {
+        "text": "What is system integration testing mainly concerned with?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Testing only private methods inside one class"
+          },
+          {
+            "letter": "B",
+            "text": "Reviewing source code comments"
+          },
+          {
+            "letter": "C",
+            "text": "Interactions between systems, services, or external interfaces"
+          },
+          {
+            "letter": "D",
+            "text": "Checking employee training completion"
+          }
+        ]
+      },
+      {
+        "text": "Which statement best distinguishes alpha and beta testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Alpha is usually at the developer's site; beta is usually by users in their environment."
+          },
+          {
+            "letter": "B",
+            "text": "Alpha is static; beta is white-box."
+          },
+          {
+            "letter": "C",
+            "text": "Alpha always happens after beta."
+          },
+          {
+            "letter": "D",
+            "text": "Beta is performed only by developers using unit tests."
+          }
+        ]
+      },
+      {
+        "text": "Which is a functional test?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Measuring how quickly search results load"
+          },
+          {
+            "letter": "B",
+            "text": "Checking whether the system remains available after failover"
+          },
+          {
+            "letter": "C",
+            "text": "Checking whether the layout is readable on small screens"
+          },
+          {
+            "letter": "D",
+            "text": "Checking whether a valid coupon applies the correct discount"
+          }
+        ]
+      },
+      {
+        "text": "Which is a performance efficiency test?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Checking role-based access permissions"
+          },
+          {
+            "letter": "B",
+            "text": "Measuring response time for 1,000 concurrent users"
+          },
+          {
+            "letter": "C",
+            "text": "Verifying that tax is calculated correctly"
+          },
+          {
+            "letter": "D",
+            "text": "Reviewing requirements for ambiguity"
+          }
+        ]
+      },
+      {
+        "text": "Which is a reliability test?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Checking whether a logo uses the correct color"
+          },
+          {
+            "letter": "B",
+            "text": "Checking whether a feature is available in the menu"
+          },
+          {
+            "letter": "C",
+            "text": "Checking whether the system recovers correctly after a service restart"
+          },
+          {
+            "letter": "D",
+            "text": "Checking whether a password reset email contains the right link"
+          }
+        ]
+      },
+      {
+        "text": "Which is a compatibility test?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Checking whether the application works correctly in supported browsers"
+          },
+          {
+            "letter": "B",
+            "text": "Checking whether a user can delete a draft"
+          },
+          {
+            "letter": "C",
+            "text": "Checking whether the terms of service are approved"
+          },
+          {
+            "letter": "D",
+            "text": "Checking whether a formula uses the correct tax rate"
+          }
+        ]
+      },
+      {
+        "text": "Which is an accessibility-related test?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Checking branch coverage for an if statement"
+          },
+          {
+            "letter": "B",
+            "text": "Checking that a defect report has a priority"
+          },
+          {
+            "letter": "C",
+            "text": "Checking whether a database backup completed"
+          },
+          {
+            "letter": "D",
+            "text": "Checking whether form fields can be used with a keyboard and screen reader"
+          }
+        ]
+      },
+      {
+        "text": "Which activity is part of the formal review process?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Executing automated regression tests"
+          },
+          {
+            "letter": "B",
+            "text": "Deploying to production"
+          },
+          {
+            "letter": "C",
+            "text": "Individual review before communicating findings"
+          },
+          {
+            "letter": "D",
+            "text": "Changing the product without recording issues"
+          }
+        ]
+      },
+      {
+        "text": "During an individual review, what does a reviewer normally do?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Examine the work product and note potential defects or questions."
+          },
+          {
+            "letter": "B",
+            "text": "Run load tests against the production system."
+          },
+          {
+            "letter": "C",
+            "text": "Approve the final release package."
+          },
+          {
+            "letter": "D",
+            "text": "Reassign all defects to developers."
+          }
+        ]
+      },
+      {
+        "text": "In a review, a potential defect found in a requirement is usually recorded as what?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A passed test case"
+          },
+          {
+            "letter": "B",
+            "text": "A review finding or issue"
+          },
+          {
+            "letter": "C",
+            "text": "A performance metric"
+          },
+          {
+            "letter": "D",
+            "text": "A production deployment"
+          }
+        ]
+      },
+      {
+        "text": "Which statement best describes black-box test techniques?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They require measuring internal code paths only."
+          },
+          {
+            "letter": "B",
+            "text": "They are based only on branch outcomes."
+          },
+          {
+            "letter": "C",
+            "text": "They cannot use requirements."
+          },
+          {
+            "letter": "D",
+            "text": "They derive tests from external behavior, specifications, or business rules."
+          }
+        ]
+      },
+      {
+        "text": "A shipping option has three valid values: Standard, Express, and Overnight. Which set best represents valid equivalence partition representatives?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Standard only"
+          },
+          {
+            "letter": "B",
+            "text": "Express only"
+          },
+          {
+            "letter": "C",
+            "text": "Standard, Express, Overnight"
+          },
+          {
+            "letter": "D",
+            "text": "Same-day, Drone, Pickup"
+          }
+        ]
+      },
+      {
+        "text": "A password length must be 8 to 20 characters inclusive. Using two-value boundary value analysis, which lengths are most appropriate?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "7, 8, 20, 21"
+          },
+          {
+            "letter": "B",
+            "text": "8, 9, 19, 20"
+          },
+          {
+            "letter": "C",
+            "text": "1, 10, 30"
+          },
+          {
+            "letter": "D",
+            "text": "0, 7, 21, 22"
+          }
+        ]
+      },
+      {
+        "text": "Which situation is best suited to decision table testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Measuring statement coverage in source code"
+          },
+          {
+            "letter": "B",
+            "text": "Testing discount rules based on customer type, order value, and coupon status"
+          },
+          {
+            "letter": "C",
+            "text": "Exploring a new feature with no rules"
+          },
+          {
+            "letter": "D",
+            "text": "Checking whether a server is online"
+          }
+        ]
+      },
+      {
+        "text": "When is state transition testing most useful?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "When the same input always has the same result regardless of history"
+          },
+          {
+            "letter": "B",
+            "text": "When there are no states or events"
+          },
+          {
+            "letter": "C",
+            "text": "When behavior depends on current state and event sequence"
+          },
+          {
+            "letter": "D",
+            "text": "When only static documents are reviewed"
+          }
+        ]
+      },
+      {
+        "text": "How can tests be derived from a user story?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Ignore acceptance criteria and test only code branches."
+          },
+          {
+            "letter": "B",
+            "text": "Test only the first happy path."
+          },
+          {
+            "letter": "C",
+            "text": "Use only production incidents."
+          },
+          {
+            "letter": "D",
+            "text": "Use acceptance criteria and scenarios to define examples and expected outcomes."
+          }
+        ]
+      },
+      {
+        "text": "If a test suite executes 8 out of 10 executable statements, what is the statement coverage?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "80%"
+          },
+          {
+            "letter": "B",
+            "text": "20%"
+          },
+          {
+            "letter": "C",
+            "text": "8%"
+          },
+          {
+            "letter": "D",
+            "text": "10%"
+          }
+        ]
+      },
+      {
+        "text": "A decision has four possible branch outcomes across the code under test. If tests execute three of them, what is the branch coverage?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "25%"
+          },
+          {
+            "letter": "B",
+            "text": "75%"
+          },
+          {
+            "letter": "C",
+            "text": "80%"
+          },
+          {
+            "letter": "D",
+            "text": "100%"
+          }
+        ]
+      },
+      {
+        "text": "In white-box testing, a branch is usually associated with what?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A user role in production"
+          },
+          {
+            "letter": "B",
+            "text": "A review checklist item"
+          },
+          {
+            "letter": "C",
+            "text": "An outcome of a decision point in the code"
+          },
+          {
+            "letter": "D",
+            "text": "A risk owner"
+          }
+        ]
+      },
+      {
+        "text": "Which situation makes experience-based testing especially useful?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The product has no risks."
+          },
+          {
+            "letter": "B",
+            "text": "The team wants to ignore defect history."
+          },
+          {
+            "letter": "C",
+            "text": "The tester has no relevant knowledge and no time to learn."
+          },
+          {
+            "letter": "D",
+            "text": "Specifications are weak, time is limited, or defect patterns are known."
+          }
+        ]
+      },
+      {
+        "text": "What is the main purpose of writing a clear defect report?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To help stakeholders understand, reproduce, prioritize, and fix the problem"
+          },
+          {
+            "letter": "B",
+            "text": "To assign blame to a person"
+          },
+          {
+            "letter": "C",
+            "text": "To avoid retesting"
+          },
+          {
+            "letter": "D",
+            "text": "To replace the test plan"
+          }
+        ]
+      },
+      {
+        "text": "Which example best shows high severity but low priority?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A typo appears on the home page of a public site launching tomorrow."
+          },
+          {
+            "letter": "B",
+            "text": "A rarely used admin report crashes in a module being retired next quarter."
+          },
+          {
+            "letter": "C",
+            "text": "The checkout button fails for all customers during a sale."
+          },
+          {
+            "letter": "D",
+            "text": "The product logo is one pixel too low on every page."
+          }
+        ]
+      },
+      {
+        "text": "Which statement best distinguishes entry criteria from exit criteria?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Entry criteria are used only after release."
+          },
+          {
+            "letter": "B",
+            "text": "Exit criteria are used only before planning."
+          },
+          {
+            "letter": "C",
+            "text": "Entry criteria define when testing can start; exit criteria define when testing can stop."
+          },
+          {
+            "letter": "D",
+            "text": "Entry and exit criteria are the same thing."
+          }
+        ]
+      },
+      {
+        "text": "Which statement best distinguishes test monitoring from test control?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Monitoring changes the plan; control only observes."
+          },
+          {
+            "letter": "B",
+            "text": "Monitoring is performed only by customers."
+          },
+          {
+            "letter": "C",
+            "text": "Control means recording test results without action."
+          },
+          {
+            "letter": "D",
+            "text": "Monitoring tracks status; control takes corrective actions."
+          }
+        ]
+      },
+      {
+        "text": "Which test is usually a good candidate for automation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A stable regression test executed frequently"
+          },
+          {
+            "letter": "B",
+            "text": "A one-time usability interview"
+          },
+          {
+            "letter": "C",
+            "text": "A test with unclear expected results"
+          },
+          {
+            "letter": "D",
+            "text": "A rapidly changing exploratory session"
+          }
+        ]
+      },
+      {
+        "text": "Which test tool type helps plan, organize, track, and report testing activities?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Static analyzer"
+          },
+          {
+            "letter": "B",
+            "text": "Test management tool"
+          },
+          {
+            "letter": "C",
+            "text": "Compiler"
+          },
+          {
+            "letter": "D",
+            "text": "Screen reader"
+          }
+        ]
+      }
+    ]
+  },
+  "set-4": {
+    "id": "set-4",
+    "title": "Practice Exam 4",
+    "questions": [
+      {
+        "text": "What is the main purpose of test analysis?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To execute test procedures and record results"
+          },
+          {
+            "letter": "B",
+            "text": "To identify test conditions from the test basis"
+          },
+          {
+            "letter": "C",
+            "text": "To fix defects found by testers"
+          },
+          {
+            "letter": "D",
+            "text": "To deploy the software to production"
+          }
+        ]
+      },
+      {
+        "text": "Which item is most likely to be part of the test basis for acceptance testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only private method source code"
+          },
+          {
+            "letter": "B",
+            "text": "Only compiler warnings"
+          },
+          {
+            "letter": "C",
+            "text": "Business processes, user requirements, or regulations"
+          },
+          {
+            "letter": "D",
+            "text": "Only unit test stubs"
+          }
+        ]
+      },
+      {
+        "text": "A requirement says the system should be fast enough for normal use. What is the best testing concern?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The requirement is ambiguous and should be clarified."
+          },
+          {
+            "letter": "B",
+            "text": "The requirement is already fully testable."
+          },
+          {
+            "letter": "C",
+            "text": "The requirement can only be tested after release."
+          },
+          {
+            "letter": "D",
+            "text": "The requirement removes the need for performance testing."
+          }
+        ]
+      },
+      {
+        "text": "In a formal review, who is typically responsible for facilitating the review and ensuring the process is followed?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Scribe"
+          },
+          {
+            "letter": "B",
+            "text": "Author"
+          },
+          {
+            "letter": "C",
+            "text": "Reviewer"
+          },
+          {
+            "letter": "D",
+            "text": "Moderator"
+          }
+        ]
+      },
+      {
+        "text": "Which statement best describes a walkthrough?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A fully automated scan of source code"
+          },
+          {
+            "letter": "B",
+            "text": "A review where the author commonly leads participants through the work product"
+          },
+          {
+            "letter": "C",
+            "text": "A test execution session run only in production"
+          },
+          {
+            "letter": "D",
+            "text": "A review type that cannot involve stakeholders"
+          }
+        ]
+      },
+      {
+        "text": "Which activity normally happens during individual review?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Deploying the application"
+          },
+          {
+            "letter": "B",
+            "text": "Running branch coverage tools"
+          },
+          {
+            "letter": "C",
+            "text": "Examining the work product and noting possible issues"
+          },
+          {
+            "letter": "D",
+            "text": "Closing the project budget"
+          }
+        ]
+      },
+      {
+        "text": "Why can review checklists be useful?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "They guide reviewers to common defect types and quality concerns."
+          },
+          {
+            "letter": "B",
+            "text": "They guarantee that no defects remain."
+          },
+          {
+            "letter": "C",
+            "text": "They replace the need for participants."
+          },
+          {
+            "letter": "D",
+            "text": "They execute test cases automatically."
+          }
+        ]
+      },
+      {
+        "text": "Which statement best defines a test basis?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The final list of passed tests"
+          },
+          {
+            "letter": "B",
+            "text": "A backup of production data"
+          },
+          {
+            "letter": "C",
+            "text": "A tool used only for defect tracking"
+          },
+          {
+            "letter": "D",
+            "text": "Information used to derive and select tests"
+          }
+        ]
+      },
+      {
+        "text": "In risk-based testing, why might one feature receive more test effort than another?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It has the shortest name."
+          },
+          {
+            "letter": "B",
+            "text": "Its failure is more likely or would have greater impact."
+          },
+          {
+            "letter": "C",
+            "text": "It was developed first."
+          },
+          {
+            "letter": "D",
+            "text": "It has fewer requirements."
+          }
+        ]
+      },
+      {
+        "text": "Which of the following is a project risk?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A calculation may produce a wrong invoice total."
+          },
+          {
+            "letter": "B",
+            "text": "The login page may reject valid users."
+          },
+          {
+            "letter": "C",
+            "text": "The test environment may not be available on time."
+          },
+          {
+            "letter": "D",
+            "text": "A report may show confidential data to unauthorized users."
+          }
+        ]
+      },
+      {
+        "text": "How should risk information influence testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It should guide test prioritization, coverage, and intensity."
+          },
+          {
+            "letter": "B",
+            "text": "It should be ignored once test execution starts."
+          },
+          {
+            "letter": "C",
+            "text": "It should be used only after release."
+          },
+          {
+            "letter": "D",
+            "text": "It should remove the need to define test conditions."
+          }
+        ]
+      },
+      {
+        "text": "Which statement best describes a test strategy?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A single defect report for one failed test"
+          },
+          {
+            "letter": "B",
+            "text": "A list of only automated test scripts"
+          },
+          {
+            "letter": "C",
+            "text": "A temporary workaround used during debugging"
+          },
+          {
+            "letter": "D",
+            "text": "A high-level description of testing approach, often reusable across projects"
+          }
+        ]
+      },
+      {
+        "text": "Which statement best describes a test approach?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The project-specific implementation of the test strategy"
+          },
+          {
+            "letter": "B",
+            "text": "A source code compiler setting"
+          },
+          {
+            "letter": "C",
+            "text": "A production incident escalation path only"
+          },
+          {
+            "letter": "D",
+            "text": "A rule that all tests must be manual"
+          }
+        ]
+      },
+      {
+        "text": "Which information can support test estimation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Historical data from similar projects"
+          },
+          {
+            "letter": "B",
+            "text": "Expert judgment from experienced team members"
+          },
+          {
+            "letter": "C",
+            "text": "The scope and complexity of testing"
+          },
+          {
+            "letter": "D",
+            "text": "All of the above"
+          }
+        ]
+      },
+      {
+        "text": "Which metric is useful for monitoring test execution progress?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Number of coffee breaks taken by the team"
+          },
+          {
+            "letter": "B",
+            "text": "Number of passed, failed, blocked, and not-run tests"
+          },
+          {
+            "letter": "C",
+            "text": "Favorite browser of each tester"
+          },
+          {
+            "letter": "D",
+            "text": "Number of pages in the user manual"
+          }
+        ]
+      },
+      {
+        "text": "Which exit criterion is usually realistic and useful?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "No person has found any defect during the project."
+          },
+          {
+            "letter": "B",
+            "text": "All possible combinations have been tested."
+          },
+          {
+            "letter": "C",
+            "text": "All project risks have disappeared."
+          },
+          {
+            "letter": "D",
+            "text": "Critical tests pass and remaining unresolved risks are acceptable."
+          }
+        ]
+      },
+      {
+        "text": "Why should regression test suites be maintained?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To keep them relevant, efficient, and reliable as the product changes"
+          },
+          {
+            "letter": "B",
+            "text": "To make them larger after every release regardless of value"
+          },
+          {
+            "letter": "C",
+            "text": "To prevent developers from changing code"
+          },
+          {
+            "letter": "D",
+            "text": "To remove all exploratory testing"
+          }
+        ]
+      },
+      {
+        "text": "After a defect fix is delivered, which testing activity checks that the original defect is resolved?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Performance testing"
+          },
+          {
+            "letter": "B",
+            "text": "System integration testing"
+          },
+          {
+            "letter": "C",
+            "text": "Confirmation testing"
+          },
+          {
+            "letter": "D",
+            "text": "Accessibility testing"
+          }
+        ]
+      },
+      {
+        "text": "Which statement about static testing is correct?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It requires the software under test to be executed."
+          },
+          {
+            "letter": "B",
+            "text": "It can be applied only after production release."
+          },
+          {
+            "letter": "C",
+            "text": "It is the same as load testing."
+          },
+          {
+            "letter": "D",
+            "text": "It examines work products without executing the software."
+          }
+        ]
+      },
+      {
+        "text": "Which statement about dynamic testing is correct?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It only reviews documents."
+          },
+          {
+            "letter": "B",
+            "text": "It involves executing the test object or software."
+          },
+          {
+            "letter": "C",
+            "text": "It can never reveal failures."
+          },
+          {
+            "letter": "D",
+            "text": "It is performed only by managers."
+          }
+        ]
+      },
+      {
+        "text": "Which test technique is black-box?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Statement testing"
+          },
+          {
+            "letter": "B",
+            "text": "Branch testing"
+          },
+          {
+            "letter": "C",
+            "text": "Boundary value analysis"
+          },
+          {
+            "letter": "D",
+            "text": "Control flow testing"
+          }
+        ]
+      },
+      {
+        "text": "What is the main idea of equivalence partitioning?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Divide data into groups expected to be treated similarly and test representatives."
+          },
+          {
+            "letter": "B",
+            "text": "Execute every statement in the code."
+          },
+          {
+            "letter": "C",
+            "text": "Use only values outside the valid range."
+          },
+          {
+            "letter": "D",
+            "text": "Create one test for every possible input."
+          }
+        ]
+      },
+      {
+        "text": "Which situation is best handled by a decision table?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A single input range with numeric boundaries"
+          },
+          {
+            "letter": "B",
+            "text": "A source code loop with two branches"
+          },
+          {
+            "letter": "C",
+            "text": "A page layout review"
+          },
+          {
+            "letter": "D",
+            "text": "A loan approval rule based on income, credit score, and employment status"
+          }
+        ]
+      },
+      {
+        "text": "Which fault is state transition testing especially good at finding?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Spelling mistakes in comments"
+          },
+          {
+            "letter": "B",
+            "text": "Allowed or disallowed transitions handled incorrectly"
+          },
+          {
+            "letter": "C",
+            "text": "Missing code indentation"
+          },
+          {
+            "letter": "D",
+            "text": "Incorrect project budget"
+          }
+        ]
+      },
+      {
+        "text": "Which type of testing is use case testing most aligned with?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Scenario-based testing of user interactions and goals"
+          },
+          {
+            "letter": "B",
+            "text": "Testing only individual code statements"
+          },
+          {
+            "letter": "C",
+            "text": "Testing only static comments"
+          },
+          {
+            "letter": "D",
+            "text": "Testing only compiler output"
+          }
+        ]
+      },
+      {
+        "text": "A test suite executes 12 of 15 executable statements. What is the statement coverage?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "80%"
+          },
+          {
+            "letter": "B",
+            "text": "75%"
+          },
+          {
+            "letter": "C",
+            "text": "60%"
+          },
+          {
+            "letter": "D",
+            "text": "15%"
+          }
+        ]
+      },
+      {
+        "text": "Which statement about branch coverage is correct?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It measures reviewed requirements."
+          },
+          {
+            "letter": "B",
+            "text": "It is the same as pairwise testing."
+          },
+          {
+            "letter": "C",
+            "text": "It proves all defects have been removed."
+          },
+          {
+            "letter": "D",
+            "text": "It measures executed decision outcomes and is stronger than statement coverage."
+          }
+        ]
+      },
+      {
+        "text": "How should experience-based testing generally be used?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Only when no tester has domain knowledge"
+          },
+          {
+            "letter": "B",
+            "text": "Alongside other techniques, using tester knowledge and defect history"
+          },
+          {
+            "letter": "C",
+            "text": "Only after the product is retired"
+          },
+          {
+            "letter": "D",
+            "text": "As a replacement for all risk analysis"
+          }
+        ]
+      },
+      {
+        "text": "What does a test charter usually define for exploratory testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The mission, scope, and focus of a test session"
+          },
+          {
+            "letter": "B",
+            "text": "The salary level of the tester"
+          },
+          {
+            "letter": "C",
+            "text": "The complete source code architecture"
+          },
+          {
+            "letter": "D",
+            "text": "The final production release date only"
+          }
+        ]
+      },
+      {
+        "text": "What is the main purpose of a defect report?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To prove that the tester is correct"
+          },
+          {
+            "letter": "B",
+            "text": "To replace the need for retesting"
+          },
+          {
+            "letter": "C",
+            "text": "To communicate enough information for investigation and resolution"
+          },
+          {
+            "letter": "D",
+            "text": "To hide the failure from stakeholders"
+          }
+        ]
+      },
+      {
+        "text": "What does defect severity describe?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "How urgently the defect should be fixed"
+          },
+          {
+            "letter": "B",
+            "text": "Which developer wrote the code"
+          },
+          {
+            "letter": "C",
+            "text": "How many test cases exist"
+          },
+          {
+            "letter": "D",
+            "text": "The degree of impact caused by the defect"
+          }
+        ]
+      },
+      {
+        "text": "What does defect priority describe?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "The number of browsers tested"
+          },
+          {
+            "letter": "B",
+            "text": "The urgency or order in which a defect should be addressed"
+          },
+          {
+            "letter": "C",
+            "text": "The percentage of statements covered"
+          },
+          {
+            "letter": "D",
+            "text": "The type of review performed"
+          }
+        ]
+      },
+      {
+        "text": "What does configuration management support in testing?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Identifying and controlling versions of test items and testware"
+          },
+          {
+            "letter": "B",
+            "text": "Automatically fixing all defects"
+          },
+          {
+            "letter": "C",
+            "text": "Eliminating all project risks"
+          },
+          {
+            "letter": "D",
+            "text": "Replacing the need for a test environment"
+          }
+        ]
+      },
+      {
+        "text": "Why is a representative test environment important?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It guarantees that no production failures occur."
+          },
+          {
+            "letter": "B",
+            "text": "It removes the need for test data."
+          },
+          {
+            "letter": "C",
+            "text": "It increases confidence that observed behavior reflects expected operational conditions."
+          },
+          {
+            "letter": "D",
+            "text": "It ensures all tests are manual."
+          }
+        ]
+      },
+      {
+        "text": "When using production-like data for testing, what is an important concern?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Defects should never be reported."
+          },
+          {
+            "letter": "B",
+            "text": "Testers should avoid expected results."
+          },
+          {
+            "letter": "C",
+            "text": "All data should be kept forever."
+          },
+          {
+            "letter": "D",
+            "text": "Sensitive or personal data should be protected, masked, or anonymized."
+          }
+        ]
+      },
+      {
+        "text": "Which is a potential risk of test automation?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "It makes regression testing impossible."
+          },
+          {
+            "letter": "B",
+            "text": "The team may over-rely on automated checks and miss important manual exploration."
+          },
+          {
+            "letter": "C",
+            "text": "It prevents tests from being repeated."
+          },
+          {
+            "letter": "D",
+            "text": "It can never be integrated into CI."
+          }
+        ]
+      },
+      {
+        "text": "Which is a good reason to run a tool pilot?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To avoid training the team"
+          },
+          {
+            "letter": "B",
+            "text": "To hide process problems"
+          },
+          {
+            "letter": "C",
+            "text": "To evaluate whether the tool fits real work before wider rollout"
+          },
+          {
+            "letter": "D",
+            "text": "To guarantee all defects are found"
+          }
+        ]
+      },
+      {
+        "text": "In continuous integration, what is a common purpose of automated tests?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "To provide rapid feedback after code changes"
+          },
+          {
+            "letter": "B",
+            "text": "To remove the need for source control"
+          },
+          {
+            "letter": "C",
+            "text": "To approve every business requirement automatically"
+          },
+          {
+            "letter": "D",
+            "text": "To replace all stakeholder communication"
+          }
+        ]
+      },
+      {
+        "text": "Which factor improves maintainability of automated tests?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "Duplicating the same brittle steps in every script"
+          },
+          {
+            "letter": "B",
+            "text": "Depending on unstable UI details whenever possible"
+          },
+          {
+            "letter": "C",
+            "text": "Avoiding clear expected results"
+          },
+          {
+            "letter": "D",
+            "text": "Using clear structure, reusable helpers, and stable locators or interfaces"
+          }
+        ]
+      },
+      {
+        "text": "Which statement about test tools is correct?",
+        "options": [
+          {
+            "letter": "A",
+            "text": "A tool always improves testing without process changes."
+          },
+          {
+            "letter": "B",
+            "text": "Tools support testing, but people still need skills, judgment, and maintenance."
+          },
+          {
+            "letter": "C",
+            "text": "A tool removes the need for objectives."
+          },
+          {
+            "letter": "D",
+            "text": "A tool guarantees complete test coverage."
+          }
+        ]
+      }
+    ]
+  }
+}
