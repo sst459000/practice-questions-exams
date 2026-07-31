@@ -19,12 +19,13 @@ export default function App() {
     let cancelled = false;
     setCourses(null);
     setError("");
+    const dataUrl = (path) => `${import.meta.env.BASE_URL}data/${path}`;
     Promise.all([
-      fetch("/data/exams.json").then(requireResponse).then((response) => response.json()),
-      fetch("/data/ctfl/bank.json").then(requireResponse).then((response) => response.json()),
-      fetch("/data/ctfl/practice-answers.json").then(requireResponse).then((response) => response.json()),
-      fetch("/data/ctai/exams.json").then(requireResponse).then((response) => response.json()),
-      fetch("/data/ctai/bank.json").then(requireResponse).then((response) => response.json())
+      fetch(dataUrl("exams.json")).then(requireResponse).then((response) => response.json()),
+      fetch(dataUrl("ctfl/bank.json")).then(requireResponse).then((response) => response.json()),
+      fetch(dataUrl("ctfl/practice-answers.json")).then(requireResponse).then((response) => response.json()),
+      fetch(dataUrl("ctai/exams.json")).then(requireResponse).then((response) => response.json()),
+      fetch(dataUrl("ctai/bank.json")).then(requireResponse).then((response) => response.json())
     ])
       .then(([ctflExams, ctflBank, ctflAnswers, ctaiExams, ctaiBank]) => {
         if (cancelled) return;
