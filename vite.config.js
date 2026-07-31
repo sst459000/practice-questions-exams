@@ -3,10 +3,11 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/practice-questions-exams/",
   test: {
     environment: "jsdom",
     setupFiles: "./src/test/setup.js",
     restoreMocks: true,
-    clearMocks: true
-  }
+    clearMocks: true,
+  },
 });
