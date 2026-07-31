@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { ConfirmDialog } from "../components/ConfirmDialog.jsx";
 import { QuestionNavigation } from "../components/QuestionNavigation.jsx";
 import { readStorage, removeStorage, shuffle, writeStorage } from "../utils.js";
+import { useBankNavigation } from "../context/BankNavigationContext.jsx";
 
 /** Question-bank learning mode with editable answers and confirmed feedback. */
 export function BankPage({ courses }) {
@@ -10,7 +11,7 @@ export function BankPage({ courses }) {
   const bank = courses[courseId]?.bank || [];
   const storageKey = `istqb-${courseId}-question-bank`;
   const draftStorageKey = `${storageKey}-drafts`;
-  const [activeSectionId, setActiveSectionId] = useState(bank[0]?.id);
+  const { activeSectionId, setActiveSectionId } = useBankNavigation();
   const [selections, setSelections] = useState(() => readStorage(storageKey, {}));
   const [pendingSelections, setPendingSelections] = useState(() => readStorage(draftStorageKey, {}));
   const [positions, setPositions] = useState({});
@@ -84,7 +85,7 @@ export function BankPage({ courses }) {
 
   return (
     <main className="bank-shell">
-      <p className="notice">Original syllabus-aligned learning questions. Select an option, change it if needed, then choose “Check answer” when you are ready.</p>
+      <p className="notice">Original syllabus-aligned learning questions. Select an option, change it if needed, then choose “Check answer” when you are ready. On mobile, use the menu to switch sections.</p>
       <section className="bank-layout">
         <aside className="section-panel">
           <div className="section-panel-heading"><h2>Sections</h2></div>
@@ -107,6 +108,7 @@ export function BankPage({ courses }) {
             {isPending && <div className="question-tools"><button type="button" onClick={confirmAnswer}>Check answer</button></div>}
             {selected && !isPending && <div className={`feedback ${selectedOption?.correct ? "feedback-correct" : "feedback-incorrect"}`}><strong>{selectedOption?.correct ? "Correct" : "Incorrect"}</strong><p><span>Concept:</span> {question.topic}</p>{selectedOption?.correct ? <p>{selectedOption.reason}</p> : <><p><span>Your choice:</span> {selectedOption?.reason}</p><p><span>Correct answer {correctOption?.letter}:</span> {correctOption?.reason}</p></>}<p><span>Takeaway:</span> {question.takeaway}</p></div>}
           </article>
+          <section className="mobile-section-details"><h2>{section.title}</h2><p>{section.subtitle}</p><span>{sectionSummary.answered}/{sectionSummary.total} tried, {sectionSummary.correct} correct</span><div className="mobile-section-actions"><button type="button" className="secondary" onClick={() => setConfirmState("section")}>Reset section</button><button type="button" className="secondary" onClick={() => setConfirmState("all")}>Reset all</button></div></section>
         </section>
       </section>
       <div className="progress footer-progress">{overall.answered}/{overall.total} tried overall</div>
