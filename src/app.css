@@ -981,6 +981,25 @@ a:focus-visible {
 }
 
 @media (max-width: 720px) {
+  .bank-shell {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bank-shell .notice {
+    order: 3;
+    margin: 16px 0 0;
+    font-size: 0.8rem;
+  }
+
+  .bank-shell .bank-layout {
+    order: 1;
+  }
+
+  .bank-shell .footer-progress {
+    order: 2;
+  }
+
   .topbar {
     position: static;
     align-items: flex-start;
@@ -1006,6 +1025,14 @@ a:focus-visible {
   .question-title {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .learning-question .question-title {
+    font-size: 0.8rem;
+  }
+
+  .learning-option {
+    font-size: 0.8rem;
   }
 
   .options {
@@ -1059,18 +1086,18 @@ a:focus-visible {
 
   .mobile-section-details h2 {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .mobile-section-details p {
     margin: 4px 0 10px;
     color: var(--muted);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .mobile-section-details>span {
     color: var(--muted);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 800;
   }
 
@@ -1093,8 +1120,18 @@ a:focus-visible {
     width: 100%;
   }
 
+  .bank-actions button,
+  .question-nav button,
+  .mobile-section-actions button {
+    font-size: 0.8rem;
+  }
+
   .question-nav {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .question-position {
+    font-size: 0.8rem;
   }
 
   .question-position {
@@ -1108,6 +1145,18 @@ a:focus-visible {
     margin-right: 12px;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .question-tools {
+    font-size: 0.8rem;
+  }
+
+  .question-tools button {
+    font-size: 0.8rem;
+  }
+
+  .feedback {
+    font-size: 0.8rem;
   }
 
   .feedback {
@@ -1250,6 +1299,16 @@ a:focus-visible {
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
+    font-size: 0.8rem;
+  }
+
+  .study-footer a {
+    font-size: 0.8rem;
+  }
+
+  .study-footer strong,
+  .study-footer span {
+    font-size: 0.8rem;
   }
 
   .topbar h1 {
@@ -1318,23 +1377,23 @@ a:focus-visible {
   }
 
   .exam-main {
-    font-size: 0.98rem;
+    font-size: 0.8rem;
   }
 
   .exam-main .question-title {
-    font-size: 1.05rem;
+    font-size: 0.8rem;
   }
 
   .exam-main .option {
-    font-size: 0.98rem;
+    font-size: 0.8rem;
   }
 
   .result-question h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .result-option {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 
   .hamburger-icon {
@@ -1474,6 +1533,16 @@ a:focus-visible {
   .result-option-label {
     grid-column: 2;
     white-space: normal;
+  }
+
+  .exam-actions .actions {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .exam-actions .actions button:last-child {
+    margin-left: auto;
   }
 }
 
