@@ -93,9 +93,13 @@ const bank = sections.map(([id, title, subtitle, concepts]) => ({
 }));
 
 const allQuestions = bank.flatMap((section) => section.questions);
-const examQuestions = allQuestions.map((question) => ({
+const examQuestions = uniqueBy(allQuestions, (question) => normalizeKey(question.text)).map((question) => ({
+  id: question.id,
+  sourceId: question.id,
   text: question.text,
-  options: question.options.map(({ letter, text }) => ({ letter, text })),
+  topic: question.topic,
+  takeaway: question.takeaway,
+  options: question.options.map(({ letter, text, reason }) => ({ letter, text, reason })),
   correct: question.options.find((option) => option.correct).letter
 }));
 
@@ -109,3 +113,17 @@ const examSets = {
 await mkdir("public/data/ctai", { recursive: true });
 await writeFile("public/data/ctai/bank.json", JSON.stringify(bank, null, 2));
 await writeFile("public/data/ctai/exams.json", JSON.stringify(examSets, null, 2));
+
+function uniqueBy(items, selector) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = selector(item);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function normalizeKey(value) {
+  return String(value).trim().replace(/\s+/g, " ").toLowerCase();
+}

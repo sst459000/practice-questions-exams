@@ -10,14 +10,62 @@ const exams = {
     id: "set-1",
     title: "Practice Exam 1",
     questions: [
-      { text: "First question", options: [{ letter: "A", text: "First answer" }, { letter: "B", text: "Second answer" }] },
-      { text: "Second question", options: [{ letter: "A", text: "Another answer" }, { letter: "B", text: "Best answer" }] }
+      {
+        id: "exam-set-1-01",
+        sourceId: "bank-question-1",
+        text: "First question",
+        correct: "A",
+        options: [
+          { letter: "A", text: "First answer" },
+          { letter: "B", text: "Second answer" }
+        ]
+      },
+      {
+        id: "exam-set-1-02",
+        sourceId: "bank-question-2",
+        text: "Second question",
+        correct: "B",
+        options: [
+          { letter: "A", text: "Another answer" },
+          { letter: "B", text: "Best answer" }
+        ]
+      }
     ]
   }
 };
 
+const bank = [
+  {
+    id: "section-1",
+    title: "Section 1",
+    subtitle: "Testing basics",
+    questions: [
+      {
+        id: "bank-question-1",
+        text: "First question",
+        topic: "Topic one",
+        takeaway: "Takeaway one",
+        options: [
+          { letter: "A", text: "First answer", correct: true },
+          { letter: "B", text: "Second answer", correct: false }
+        ]
+      },
+      {
+        id: "bank-question-2",
+        text: "Second question",
+        topic: "Topic two",
+        takeaway: "Takeaway two",
+        options: [
+          { letter: "A", text: "Another answer", correct: false },
+          { letter: "B", text: "Best answer", correct: true }
+        ]
+      }
+    ]
+  }
+];
+
 function renderExam(initialEntry = "/course/ctfl/exam/set-1") {
-  const courses = { ctfl: { id: "ctfl", name: "ISTQB CTFL", exams } };
+  const courses = { ctfl: { id: "ctfl", name: "ISTQB CTFL", exams, bank } };
   return render(
     <MemoryRouter initialEntries={[initialEntry]}>
       <Routes>
@@ -65,7 +113,11 @@ describe("ExamPage", () => {
     await user.click(screen.getByRole("button", { name: "Submit exam" }));
     const dialogSubmit = screen.getAllByRole("button", { name: "Submit anyway" })[0];
     await user.click(dialogSubmit);
-    expect(JSON.parse(localStorage.getItem("istqb-ctfl-set-1-results")).set.id).toBe("set-1");
+
+    const stored = JSON.parse(localStorage.getItem("istqb-ctfl-set-1-results"));
+    expect(stored.set.id).toBe("set-1");
+    expect(stored.review[0].sourceId).toBe("bank-question-1");
+    expect(stored.review[0].topic).toBe("Topic one");
     expect(screen.getByText("Results route")).toBeInTheDocument();
   });
 

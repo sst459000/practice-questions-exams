@@ -3,7 +3,7 @@ import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { ConfirmDialog } from "../components/ConfirmDialog.jsx";
 import { QuestionCard } from "../components/QuestionCard.jsx";
 import { QuestionNavigation } from "../components/QuestionNavigation.jsx";
-import { normalizeKey, readStorage, removeStorage, writeStorage } from "../utils.js";
+import { buildExamReview, normalizeKey, readStorage, removeStorage, writeStorage } from "../utils.js";
 import { useExamNavigation } from "../context/ExamNavigationContext.jsx";
 
 /** One-question-at-a-time mock exam controller. */
@@ -52,7 +52,7 @@ export function ExamPage({ courses }) {
 
   function submit() {
     const resultsKey = `${storageKey}-results`;
-    writeStorage(resultsKey, { set, selections, answers: answerKey });
+    writeStorage(resultsKey, { set, selections, answers: answerKey, review: buildExamReview({ set, selections, answers: answerKey, bank: course?.bank || [] }) });
     writeStorage(`${storageKey}-submitted`, true);
     navigate(`/course/${courseId}/results/${setId}`);
   }

@@ -809,6 +809,60 @@ a:focus-visible {
   color: var(--muted);
 }
 
+.review-panel {
+  margin-bottom: 22px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.review-panel-header {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.review-panel-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.review-panel-copy {
+  margin: 0;
+  color: var(--muted);
+}
+
+.results-actions-inline {
+  margin-top: 18px;
+}
+
+.topic-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+}
+
+.topic-summary-card {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fbfbfa;
+}
+
+.topic-summary-card strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.98rem;
+}
+
+.topic-summary-card span,
+.topic-summary-card small {
+  display: block;
+  color: var(--muted);
+}
+
 .results-list {
   display: grid;
   gap: 14px;
@@ -830,16 +884,6 @@ a:focus-visible {
   border-color: #e8aaa4;
 }
 
-.result-question h2 {
-  display: grid;
-  grid-template-columns: 38px 1fr;
-  gap: 12px;
-  align-items: start;
-  margin: 0;
-  padding: 18px 20px 10px;
-  font-size: 1.08rem;
-}
-
 .result-number {
   display: inline-grid;
   place-items: center;
@@ -853,6 +897,88 @@ a:focus-visible {
 .result-status {
   margin: 0 20px 14px 70px;
   font-weight: 800;
+}
+
+.result-question-toggle {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  width: 100%;
+  padding: 18px 20px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+}
+
+.result-question-toggle:hover {
+  background: #f7faf8;
+}
+
+.result-question-toggle:focus-visible {
+  outline-offset: -3px;
+}
+
+.result-question-heading {
+  min-width: 0;
+  padding: 18px 28px 0 28px;
+}
+
+.result-question-heading h2 {
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  gap: 12px;
+  align-items: start;
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.result-topic {
+  margin: 8px 0 0 50px;
+  color: var(--accent);
+  font-size: 0.84rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.result-question-meta {
+  display: grid;
+  justify-items: end;
+  align-content: start;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.result-question-body {
+  padding-top: 6px;
+  border-top: 1px solid var(--line);
+}
+
+.result-explanation {
+  margin: 0 28px 18px 70px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfbfa;
+}
+
+.result-explanation strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.98rem;
+}
+
+.result-explanation p {
+  margin: 9px 0 0;
+}
+
+.result-explanation-label {
+  font-weight: 850;
 }
 
 .result-correct .result-status {
@@ -869,8 +995,8 @@ a:focus-visible {
 
 .result-options {
   display: grid;
-  gap: 8px;
-  padding: 0 20px 20px 70px;
+  gap: 10px;
+  padding: 0 28px 28px 70px;
 }
 
 .result-option {
@@ -879,7 +1005,7 @@ a:focus-visible {
   gap: 10px;
   align-items: center;
   min-height: 46px;
-  padding: 9px 12px;
+  padding: 12px 14px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fbfbfa;
@@ -1528,6 +1654,57 @@ a:focus-visible {
 
   .result-option {
     grid-template-columns: 1fr;
+  }
+
+  .review-panel {
+    padding: 16px;
+  }
+
+  .review-panel-header h2 {
+    font-size: 1.05rem;
+  }
+
+  .result-topic,
+  .result-status,
+  .result-explanation {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .result-question-heading {
+    padding: 14px 0 0;
+  }
+
+  .result-topic {
+    margin-left: 14px;
+  }
+
+  .result-question-toggle {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 14px;
+  }
+
+  .result-question-meta {
+    justify-items: start;
+  }
+
+  .result-question-heading h2 {
+    grid-template-columns: 38px 1fr;
+    font-size: 0.98rem;
+  }
+
+  .result-explanation {
+    padding: 14px 14px;
+  }
+
+  .result-options {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .result-option {
+    padding: 11px 12px;
   }
 
   .result-option-label {

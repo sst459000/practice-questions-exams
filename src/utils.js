@@ -65,14 +65,89 @@ export function balanceAnswerOptionLengths(options) {
 }
 
 export function prepareCourseContent(course, answerKey = {}) {
-  const prepareQuestions = (questions) => questions.map((question) => {
-    const correctLetter = question.correct || answerKey[normalizeKey(question.text)];
-    const options = question.options.map((option) => ({ ...option, correct: option.correct ?? option.letter === correctLetter }));
-    return { ...question, options: balanceAnswerOptionLengths(options) };
+  const prepareQuestions = (questions, idPrefix, options = {}) => {
+    const { dedupe = false, bankLookup = new Map() } = options;
+    const items = dedupe ? uniqueBy(questions, (question) => normalizeKey(question.text)) : questions;
+    return items.map((question, index) => {
+      const correctLetter = question.correct || answerKey[normalizeKey(question.text)];
+      const optionList = question.options.map((option) => ({ ...option, correct: option.correct ?? option.letter === correctLetter }));
+      const preparedQuestion = { ...question, options: balanceAnswerOptionLengths(optionList) };
+      preparedQuestion.id = preparedQuestion.id || `${idPrefix}-${String(index + 1).padStart(2, "0")}`;
+      const bankQuestion = bankLookup.get(normalizeKey(preparedQuestion.text));
+      if (bankQuestion?.id && !preparedQuestion.sourceId) preparedQuestion.sourceId = bankQuestion.id;
+      return preparedQuestion;
+    });
+  };
+
+  const preparedBank = course.bank.map((section) => ({
+    ...section,
+    questions: prepareQuestions(section.questions, `${course.id}-bank-${section.id}`)
+  }));
+
+  const bankLookup = new Map();
+  preparedBank.forEach((section) => {
+    section.questions.forEach((question) => {
+      const key = normalizeKey(question.text);
+      if (!bankLookup.has(key)) bankLookup.set(key, question);
+      if (!bankLookup.has(question.id)) bankLookup.set(question.id, question);
+    });
   });
+
   return {
     ...course,
-    bank: course.bank.map((section) => ({ ...section, questions: prepareQuestions(section.questions) })),
-    exams: Object.fromEntries(Object.entries(course.exams).map(([id, exam]) => [id, { ...exam, questions: prepareQuestions(exam.questions) }]))
+    bank: preparedBank,
+    exams: Object.fromEntries(Object.entries(course.exams).map(([id, exam]) => [
+      id,
+      { ...exam, questions: prepareQuestions(exam.questions, `${course.id}-${id}`, { dedupe: true, bankLookup }) }
+    ]))
   };
+}
+
+export function buildExamReview({ set, selections = {}, answers = {}, bank = [] }) {
+  const bankLookupByText = new Map();
+  const bankLookupById = new Map();
+  bank.forEach((section) => {
+    section.questions.forEach((question) => {
+      const textKey = normalizeKey(question.text);
+      if (!bankLookupByText.has(textKey)) bankLookupByText.set(textKey, { question, section });
+      if (!bankLookupById.has(question.id)) bankLookupById.set(question.id, { question, section });
+    });
+  });
+
+  return set.questions.map((question, index) => {
+    const key = normalizeKey(question.text);
+    const bankEntry = (question.sourceId && bankLookupById.get(question.sourceId)) || bankLookupByText.get(key);
+    const correct = answers[key] || question.correct || question.answer;
+    const selected = selections[key];
+    const matchedBankQuestion = bankEntry?.question;
+    const correctOption = question.options.find((option) => option.letter === correct) || matchedBankQuestion?.options.find((option) => option.letter === correct);
+    const selectedOption = question.options.find((option) => option.letter === selected) || matchedBankQuestion?.options.find((option) => option.letter === selected);
+
+    return {
+      id: question.id || `${set.id || "set"}-${index + 1}`,
+      sourceId: question.sourceId || matchedBankQuestion?.id || "",
+      number: index + 1,
+      text: question.text,
+      topic: question.topic || matchedBankQuestion?.topic || bankEntry?.section?.title || "General review",
+      sectionTitle: bankEntry?.section?.title || "",
+      selected,
+      selectedText: selectedOption?.text || "",
+      selectedReason: selectedOption?.reason || matchedBankQuestion?.options.find((option) => option.letter === selected)?.reason || "",
+      correct,
+      correctText: correctOption?.text || "",
+      correctReason: correctOption?.reason || matchedBankQuestion?.options.find((option) => option.letter === correct)?.reason || "",
+      takeaway: question.takeaway || matchedBankQuestion?.takeaway || "",
+      options: question.options
+    };
+  });
+}
+
+function uniqueBy(items, selector) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = selector(item);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
